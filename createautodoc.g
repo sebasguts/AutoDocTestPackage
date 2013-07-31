@@ -1,5 +1,15 @@
 LoadPackage( "AutoDoc" );
 
+# HACL: We reset the random number generator here so that
+# to ensure that the generated docs stay identical when
+# regenerating the docs. This way, we can add the generated
+# docs to the repository, which in turn allows us to quickly
+# test whether anything changed (so we can regression test
+# AutoDoc more easily).
+#
+# For regular packages using AutoDoc, this is *not* necessary.
+# In particular, we recommend not adding generated documentation
+# to the repository.
 Reset( GlobalMersenneTwister, 0 );
 
 CreateAutomaticDocumentation(
