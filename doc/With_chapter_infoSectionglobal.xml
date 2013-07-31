@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--
+ This is an automatically generated file. 
+ -->
+<Section Label="global_automatically_generated_documentation_parts">
+<Heading>global</Heading>
+<#Include Label="ATestGlobalFunction7293477679">
+<#Include Label="GlobalVariable5751337604">
+</Section>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--
+ This is an automatically generated file. 
+ -->
+<TitlePage>
+  <Title>&AutoDocTestPackage;</Title>
+  <Subtitle>A simple test package</Subtitle>
+  <TitleComment>(<E>this manual is still under construction</E>)
+    <Br/><Br/>
+    This manual is best viewed as an <B>HTML</B> document.
+    An <B>offline</B> version should be included in the documentation
+    subfolder of the package.
+    <Br/><Br/>
+  </TitleComment>
+  <Version>Version <#Include SYSTEM "../VERSION"></Version>
+  <Author>Sebastian Gutsche<Alt Only="LaTeX"><Br/></Alt>
+    <Address>
+      Sebastian Gutsche<Br/>
+      Lehrstuhl B fuer Mathematik, RWTH Aachen<Br/>
+      Templergraben 64<Br/>
+      52062 Aachen<Br/>
+      Germany<Br/>
+    </Address>
+    <Email>sebastian.gutsche@rwth-aachen.de</Email>
+    <Homepage>http://wwwb.math.rwth-aachen.de/~gutsche/</Homepage>
+  </Author>
+  <Date></Date>
+  <Copyright>
+  This package may be distributed under the terms and conditions of the
+  GNU Public License Version 2.
+  </Copyright>
+</TitlePage>
