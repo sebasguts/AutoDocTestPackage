@@ -1,0 +1,21 @@
+#############################################################################
+##
+##  AutoDocTestPackage package
+##
+##  Copyright 2013,
+##                       Sebastian Gutsche, RWTH-Aachen University
+##                  
+##
+##  A GAP package to demonstrate the capabilities of the AutoDoc package
+##
+#############################################################################
+
+This GAP package is supposed to demonstrate how one can use the AutoDoc
+to create documentations for GAP packages. It also is used by the
+AutoDoc developers to test existing and new features of the AutoDoc
+package.
+
+Bug reports and other feedback are welcome. The latest version of this
+package can be found at
+
+    https://github.com/sebasguts/AutoDocTestPackage
