@@ -8,7 +8,10 @@ public_html
 public_html.version
 doc/*.pdf
 VERSION
+doc/chooser.html
 doc/*.txt
+doc/*.css
+doc/*.js
 doc/*.six
 doc/*Bib.xml
 doc/*Bib.xml.bib
