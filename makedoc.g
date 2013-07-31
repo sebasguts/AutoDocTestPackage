@@ -16,4 +16,4 @@ MakeGAPDocDoc( "doc", "AutoDocTestPackage", list, "AutoDocTestPackage" );
 
 GAPDocManualLab( "AutoDocTestPackage" );
 
-quit;
+QUIT;
