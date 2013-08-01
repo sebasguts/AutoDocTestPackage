@@ -7,7 +7,7 @@
 <TitlePage>
   <Title>&AutoDocTestPackage;</Title>
   <Subtitle>A simple test package</Subtitle>
-  <TitleComment>(<E>this manual is still under construction</E>)
+  <TitleComment>
     <Br/><Br/>
     This manual is best viewed as an <B>HTML</B> document.
     An <B>offline</B> version should be included in the documentation

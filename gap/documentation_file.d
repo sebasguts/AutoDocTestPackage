@@ -1,4 +1,4 @@
-##  <#GAPDoc Label="ACategory9156404126">
+##  <#GAPDoc Label="ACategory86F2986E86E4E275">
 ##  <ManSection>
 ##    <Filt Arg="arg1" Name="ACategory" Label="for IsObject"/>
 ##    <Returns><C>true</C> or <C>false</C></Returns>
@@ -9,7 +9,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="ACategoryWithMoreOptions9888088675">
+##  <#GAPDoc Label="ACategoryWithMoreOpt8425BE3F84D26600">
 ##  <ManSection>
 ##    <Filt Arg="an argument" Name="ACategoryWithMoreOptions" Label="alabel"/>
 ##    <Returns><C>true</C> or <C>false</C></Returns>
@@ -21,7 +21,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="ARepresentation3272700692">
+##  <#GAPDoc Label="ARepresentation82A18DE17FED4C8A">
 ##  <ManSection>
 ##    <Filt Arg="arg1" Name="ARepresentation" Label="for ACategory"/>
 ##    <Returns><C>true</C> or <C>false</C></Returns>
@@ -32,7 +32,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="ARepresentationWithMoreOptions711425035">
+##  <#GAPDoc Label="ARepresentationWithM78C26DE182EBBBC2">
 ##  <ManSection>
 ##    <Filt Arg="arg1" Name="ARepresentationWithMoreOptions" Label="alabel"/>
 ##    <Returns><C>true</C> or <C>false</C></Returns>
@@ -44,7 +44,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AProperty7947022094">
+##  <#GAPDoc Label="AProperty7EC77BD27A0A0A6F">
 ##  <ManSection>
 ##    <Prop Arg="argument" Name="AProperty" Label="testproperty"/>
 ##    <Returns><C>true</C> or <C>false</C></Returns>
@@ -55,7 +55,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AnotherProperty665357363">
+##  <#GAPDoc Label="AnotherProperty7BA42FBD7D51FBAA">
 ##  <ManSection>
 ##    <Prop Arg="arg1" Name="AnotherProperty" Label="for AGroupedRepresentation"/>
 ##    <Returns><C>true</C> or <C>false</C></Returns>
@@ -66,7 +66,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AnAttribute9522391318">
+##  <#GAPDoc Label="AnAttribute7D59DD8D810D74DA">
 ##  <ManSection>
 ##    <Attr Arg="ItsArgument" Name="AnAttribute" Label="for IsObject"/>
 ##    <Returns>another thing</Returns>
@@ -77,7 +77,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AnotherAttribute8904834845">
+##  <#GAPDoc Label="AnotherAttribute7A7DECA378E79C30">
 ##  <ManSection>
 ##    <Attr Arg="arg1" Name="AnotherAttribute" Label="for IsObject"/>
 ##    <Returns>returnvalue</Returns>
@@ -88,7 +88,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AnOperation8862687158">
+##  <#GAPDoc Label="AnOperation813888EA79757C67">
 ##  <ManSection>
 ##    <Oper Arg="arg1" Name="AnOperation" Label="for IsObject"/>
 ##    <Returns>IsInt</Returns>
@@ -99,7 +99,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="ATestGlobalFunction7293477679">
+##  <#GAPDoc Label="ATestGlobalFunction7C90145C8204041E">
 ##  <ManSection>
 ##    <Func Arg="" Name="ATestGlobalFunction" Label=""/>
 ##    <Returns>Integer</Returns>
@@ -111,7 +111,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AnotherTestGlobalFunction1253067658">
+##  <#GAPDoc Label="AnotherTestGlobalFun810D77B57C6495FB">
 ##  <ManSection>
 ##    <Func Arg="arg" Name="AnotherTestGlobalFunction" Label=""/>
 ##    <Returns>Integer</Returns>
@@ -122,7 +122,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="GlobalVariable5751337604">
+##  <#GAPDoc Label="GlobalVariable81104ACC7DFB7372">
 ##  <ManSection>
 ##    <Var Name="GlobalVariable"/>
 ##    <Description>
@@ -132,7 +132,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AnotherGlobalVariable5745597596">
+##  <#GAPDoc Label="AnotherGlobalVariabl79B184CA877766C9">
 ##  <ManSection>
 ##    <Var Name="AnotherGlobalVariable"/>
 ##    <Description>
@@ -142,9 +142,9 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AnOperation5049234696">
+##  <#GAPDoc Label="AnOperation84FA2EDF83D5FCD0">
 ##  <ManSection>
-##    <Meth Arg="arg1" Name="AnOperation" Label="for IsObject"/>
+##    <Meth Arg="arg1" Name="AnOperation" Label="for IsObject, installed"/>
 ##    <Returns>integer</Returns>
 ##    <Description>
 ##      Im an operation
@@ -153,7 +153,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AGroupedCategory8325043659">
+##  <#GAPDoc Label="AGroupedCategory83ACE9A77ADD1EB0">
 ##  <ManSection>
 ##    <Filt Arg="arg1" Name="AGroupedCategory" Label="for IsObject"/>
 ##    <Filt Arg="arg1" Name="ASecondGroupedCategory" Label="for IsObject"/>
@@ -166,7 +166,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="AGroupedRepresentation8047086772">
+##  <#GAPDoc Label="AGroupedRepresentati79AEDC6B7F446DB3">
 ##  <ManSection>
 ##    <Filt Arg="arg1" Name="AGroupedRepresentation" Label="for IsObject"/>
 ##    <Filt Arg="arg1" Name="ASecondGroupedRepresentation" Label="for IsObject"/>
@@ -179,7 +179,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="GroupedOperation6437666966">
+##  <#GAPDoc Label="GroupedOperation7E5A6A4587DDD8C6">
 ##  <ManSection>
 ##    <Oper Arg="arg1" Name="GroupedOperation" Label="for IsInt"/>
 ##    <Oper Arg="arg1,arg2" Name="GroupedOperation" Label="for IsInt, IsInt"/>
@@ -192,7 +192,7 @@
 ##  <#/GAPDoc>
 ##
 
-##  <#GAPDoc Label="GroupedGlobalVariable8314103190">
+##  <#GAPDoc Label="GroupedGlobalVariabl7A7D7194836F2829">
 ##  <ManSection>
 ##    <Var Name="GroupedGlobalVariable" />
 ##    <Var Name="GroupedGlobalVariable2" />

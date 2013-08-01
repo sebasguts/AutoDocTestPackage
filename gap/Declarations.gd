@@ -128,6 +128,7 @@ InstallMethodWithDocumentation( AnOperation,
                                 [ IsObject ],
                                 [ "Im an operation" ],
                                 "integer",
+                                rec( function_label := "for IsObject, installed" ),
                                 i -> i+1
                               );
 
