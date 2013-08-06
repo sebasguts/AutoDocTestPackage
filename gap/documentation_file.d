@@ -101,7 +101,7 @@
 
 ##  <#GAPDoc Label="ATestGlobalFunction7C90145C8204041E">
 ##  <ManSection>
-##    <Func Arg="" Name="ATestGlobalFunction" Label=""/>
+##    <Func Arg="" Name="ATestGlobalFunction"/>
 ##    <Returns>Integer</Returns>
 ##    <Description>
 ##      This is
@@ -113,7 +113,7 @@
 
 ##  <#GAPDoc Label="AnotherTestGlobalFun810D77B57C6495FB">
 ##  <ManSection>
-##    <Func Arg="arg" Name="AnotherTestGlobalFunction" Label=""/>
+##    <Func Arg="arg" Name="AnotherTestGlobalFunction"/>
 ##    <Returns>Integer</Returns>
 ##    <Description>
 ##      a global function

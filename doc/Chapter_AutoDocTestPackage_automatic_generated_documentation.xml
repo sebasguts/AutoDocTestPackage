@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="AutoDocTestPackage_automatic_generated_documentation_automatically_generated_documentation_parts">
+<Heading>AutoDocTestPackage automatic generated documentation</Heading>
+<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_categories.xml">
+<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_properties.xml">
+<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_attributes.xml">
+<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_methods.xml">
+<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_global_functions.xml">
+<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_global_variables.xml">
+</Chapter>

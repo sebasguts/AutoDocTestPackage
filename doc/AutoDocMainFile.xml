@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<#Include SYSTEM "Intro.xml">
-<#Include SYSTEM "With_chapter_info.xml">
-<#Include SYSTEM "AutoDocTestPackage_automatic_generated_documentation.xml">
+<#Include SYSTEM "Chapter_Intro.xml">
+<#Include SYSTEM "Chapter_With_chapter_info.xml">
+<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentation.xml">
