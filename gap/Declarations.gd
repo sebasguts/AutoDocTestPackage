@@ -8,6 +8,9 @@
 ##
 #############################################################################
 
+SetCurrentAutoDocChapter( "Default_chapter" );
+SetCurrentAutoDocSection( "Default_section" );
+
 DeclareCategoryWithDocumentation( "ACategory",
                                   IsObject,
                                   "A test.",
@@ -79,6 +82,9 @@ DeclareAttributeWithDocumentation( "AnotherAttribute",
                                    IsObject,
                                    "AnotherDescription",
                                    "returnvalue" );
+
+UnsetCurrentAutoDocChapter();
+
 
 DeclareOperationWithDocumentation( "AnOperation",
                                    [ IsObject ],

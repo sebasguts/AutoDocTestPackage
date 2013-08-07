@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Default_chapter_automatically_generated_documentation_parts">
+<Heading>Default chapter</Heading>
+<#Include SYSTEM "Chapter_Default_chapterSectionDefault_section.xml">
+</Chapter>
