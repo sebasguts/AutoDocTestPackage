@@ -3,7 +3,10 @@
 <!-- This is an automatically generated file. -->
 <Section Label="Default_section_automatically_generated_documentation_parts">
 <Heading>Default section</Heading>
-<#Include Label="AGroupedCategory83ACE9A77ADD1EB0">
-<#Include Label="AnotherProperty7BA42FBD7D51FBAA">
-<#Include Label="AnotherAttribute7A7DECA378E79C30">
+<#Include Label="AGroupedCategory7D3AD3F480AE55C0">
+<#Include Label="AGroupedCategoryWith7F4E1EB784E9DED6">
+<#Include Label="AnotherProperty7C39E4377B4A93E7">
+<#Include Label="AnotherPropertyWithO83DB74EC81A5F81C">
+<#Include Label="AnotherAttribute7FBF4A96832B12E6">
+<#Include Label="AnotherAttributeWith7C6B7F5B7E1D41FB">
 </Section>
