@@ -3,5 +3,6 @@
 <!-- This is an automatically generated file. -->
 <Section Label="Second_section_automatically_generated_documentation_parts">
 <Heading>Second section</Heading>
-<#Include Label="AProperty7EC77BD27A0A0A6F">
+<#Include Label="AProperty8323AC0D81A9E775">
+<#Include Label="APropertyWithOptions7F6E12517B741077">
 </Section>

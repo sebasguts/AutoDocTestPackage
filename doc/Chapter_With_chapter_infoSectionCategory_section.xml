@@ -4,8 +4,12 @@
 <Section Label="Category_section_automatically_generated_documentation_parts">
 <Heading>Category section</Heading>
 This section is for categories<#Include Label="ACategory86F2986E86E4E275">
-<#Include Label="ACategoryWithMoreOpt8425BE3F84D26600">
-<#Include Label="ARepresentation82A18DE17FED4C8A">
-<#Include Label="ARepresentationWithM78C26DE182EBBBC2">
-<#Include Label="AGroupedRepresentati79AEDC6B7F446DB3">
+<#Include Label="ACategoryWithOptions7C9F49C07EACA826">
+<#Include Label="ACategoryWithMoreOpt8355CD367E8ADF00">
+<#Include Label="ACategoryWithMoreOpt790B82467E082A1A">
+<#Include Label="ARepresentation823AE923859F61B6">
+<#Include Label="ARepresentationWithO820361E57D19FE1B">
+<#Include Label="ARepresentationWithM7EDAAC167E9292B2">
+<#Include Label="ARepresentationWithM7977C17D7A4051AF">
+<#Include Label="AGroupedRepresentati7CC7FF9F87DA97E9">
 </Section>
