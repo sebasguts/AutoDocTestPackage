@@ -3,8 +3,8 @@
 <!-- This is an automatically generated file. -->
 <Chapter Label="Chapter_With_chapter_info_automatically_generated_documentation_parts">
 <Heading>With chapter info</Heading>
+This is a user set chapter<#Include SYSTEM "Chapter_With_chapter_infoSectionCategory_section.xml">
 Text1
-<#Include SYSTEM "Chapter_With_chapter_infoSectionCategory_section.xml">
 <#Include SYSTEM "Chapter_With_chapter_infoSectionSecond_section.xml">
 <#Include SYSTEM "Chapter_With_chapter_infoSectionAttributes.xml">
 <#Include SYSTEM "Chapter_With_chapter_infoSectionOperations.xml">
