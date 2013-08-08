@@ -3,5 +3,8 @@
 <!-- This is an automatically generated file. -->
 <Chapter Label="Chapter_Default_chapter_automatically_generated_documentation_parts">
 <Heading>Default chapter</Heading>
+Just
+another
+headline
 <#Include SYSTEM "Chapter_Default_chapterSectionDefault_section.xml">
 </Chapter>

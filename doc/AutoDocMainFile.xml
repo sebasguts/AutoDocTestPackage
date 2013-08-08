@@ -4,4 +4,5 @@
 <#Include SYSTEM "Chapter_Intro.xml">
 <#Include SYSTEM "Chapter_With_chapter_info.xml">
 <#Include SYSTEM "Chapter_Default_chapter.xml">
+<#Include SYSTEM "Chapter_With_chapter_info.xml">
 <#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentation.xml">

@@ -9,12 +9,21 @@
 #############################################################################
 
 SetCurrentAutoDocChapter( "Default_chapter" );
+
+WriteStringIntoDoc( [ "Just", "another", "headline" ] );
+
 SetCurrentAutoDocSection( "Default_section" );
+
+WriteStringIntoDoc( "Another test" );
 
 DeclareCategoryWithDocumentation( "ACategory",
                                   IsObject,
                                   "A test.",
                                   [ "With_chapter_info", "Category_section" ] );
+
+WriteStringIntoDoc( "Text1" : chapter_info := [ "With_chapter_info" ] );
+
+WriteStringIntoDoc( "Text2" : chapter_info := [ "With_chapter_info", "Category_section" ] );
 
 DeclareCategoryWithDoc( "ACategoryWithOptions",
                          IsObject :
@@ -155,7 +164,7 @@ DeclareAttributeWithDoc( "AnotherAttributeWithOptions",
                          description := "AnotherDescription",
                          return_value := "returnvalue" );
 
-UnsetCurrentAutoDocChapter();
+ResetCurrentAutoDocChapter();
 
 
 DeclareOperationWithDocumentation( "AnOperation",
