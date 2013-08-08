@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<Chapter Label="With_chapter_info_automatically_generated_documentation_parts">
+<Chapter Label="Chapter_With_chapter_info_automatically_generated_documentation_parts">
 <Heading>With chapter info</Heading>
 This is a user set chapter<#Include SYSTEM "Chapter_With_chapter_infoSectionCategory_section.xml">
 <#Include SYSTEM "Chapter_With_chapter_infoSectionSecond_section.xml">
