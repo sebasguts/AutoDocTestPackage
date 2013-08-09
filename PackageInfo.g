@@ -41,7 +41,7 @@ Subtitle := "A simple test package",
 ##  you must provide a new version number even after small changes.
 Version :=  Maximum( [
 ## this line prevents merge conflicts
-  "2013.07.31", ## Sebas' version
+  "2013.08.09", ## Sebas' version
 ] ),
 
 ##  Release date of the current version in dd/mm/yyyy format.
