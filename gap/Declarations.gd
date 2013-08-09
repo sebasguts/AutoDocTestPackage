@@ -34,7 +34,7 @@ DeclareCategoryWithDocumentation( "ACategoryWithMoreOptions",
                                   IsObject,
                                   [ "The description", "of it." ],
                                   "an argument",
-                                  [ "With_chapter_info", "Category_section" ],
+                                  [ "With chapter info", "Category section" ],
                                   rec( function_label := "alabel" ) );
 
 DeclareCategoryWithDoc( "ACategoryWithMoreOptionsWithOptions",
