@@ -269,7 +269,7 @@ Dependencies := rec(
   # insensitive, least version denoted with '>=' prepended to version string.
   # without these, the package will not load
   # NeededOtherPackages := [["GAPDoc", ">= 0.99"]],
-  NeededOtherPackages := [ [ "AutoDoc", ">=2013.07.31" ] ],
+  NeededOtherPackages := [ [ "AutoDoc", ">=2013.08.09:14:09" ] ],
   # without these the package will issue a warning while loading
   # SuggestedOtherPackages := [],
   SuggestedOtherPackages := [ [ "GAPDoc", ">=0.99" ] ],
