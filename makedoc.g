@@ -9,6 +9,13 @@ LoadPackage("AutoDoc");
 AutoDoc(
     "AutoDocTestPackage",
     rec(
+        scaffold := rec(
+            includes := [
+                "AutoDocMainFile.xml",
+                "handwritten.xml",
+                ],
+            appendix := [ "appendix.xml" ],
+        ),
         autodoc := rec(
             section_intros :=
                 [
