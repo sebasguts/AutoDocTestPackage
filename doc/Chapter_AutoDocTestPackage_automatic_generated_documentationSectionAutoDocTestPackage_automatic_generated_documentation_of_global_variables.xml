@@ -3,7 +3,34 @@
 <!-- This is an automatically generated file. -->
 <Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_variables_automatically_generated_documentation_parts">
 <Heading>AutoDocTestPackage automatic generated documentation of global variables</Heading>
-<#Include Label="AnotherGlobalVariabl84E960327B455944">
-<#Include Label="AnotherGlobalVariabl84DB547F7AA02445">
-<#Include Label="GroupedGlobalVariabl7C71090A7BA104FA">
+<ManSection>
+  <Var Name="AnotherGlobalVariable"/>
+  <Description>
+    I'm a global variable.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Var Name="AnotherGlobalVariableWithOptions"/>
+  <Description>
+    I'm a global variable.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Var Name="GroupedGlobalVariable" />
+  <Var Name="GroupedGlobalVariableWithOptions" />
+  <Var Name="GroupedGlobalVariable2" />
+  <Var Name="GroupedGlobalVariable2WithOptions" />
+  <Description>
+    Global 1
+    Global 1
+    Global 2
+    Global 2
+  </Description>
+</ManSection>
+
+
 </Section>

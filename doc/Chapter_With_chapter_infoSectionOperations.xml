@@ -3,6 +3,22 @@
 <!-- This is an automatically generated file. -->
 <Section Label="Chapter_With_chapter_info_Section_Operations_automatically_generated_documentation_parts">
 <Heading>Operations</Heading>
-<#Include Label="AnOperation7D1C67858402CCB5">
-<#Include Label="AnOperationWithOptio7FCD845D786BA037">
+<ManSection>
+  <Oper Arg="arg1" Name="AnOperation" Label="for IsObject"/>
+  <Returns>IsInt</Returns>
+  <Description>
+    Description
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Oper Arg="arg1" Name="AnOperationWithOptions" Label="for IsObject"/>
+  <Returns>IsInt</Returns>
+  <Description>
+    Description
+  </Description>
+</ManSection>
+
+
 </Section>

@@ -3,7 +3,37 @@
 <!-- This is an automatically generated file. -->
 <Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_methods_automatically_generated_documentation_parts">
 <Heading>AutoDocTestPackage automatic generated documentation of methods</Heading>
-<#Include Label="GroupedOperation85782A627C4C10A8">
-<#Include Label="AnOperation86EFF7AE80FF4B16">
-<#Include Label="AnOperationWithOptio8448C8377B24BBD0">
+<ManSection>
+  <Meth Arg="arg1" Name="AnOperation" Label="for IsObject, installed"/>
+  <Returns>integer</Returns>
+  <Description>
+    Im an operation
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Meth Arg="arg1" Name="AnOperationWithOptions" Label="for IsObject, installed"/>
+  <Returns>integer</Returns>
+  <Description>
+    Im an operation
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Oper Arg="arg1" Name="GroupedOperation" Label="for IsInt"/>
+  <Oper Arg="arg1" Name="GroupedOperationWithOptions" Label="for IsInt"/>
+  <Oper Arg="arg1,arg2" Name="GroupedOperation" Label="for IsInt, IsInt"/>
+  <Oper Arg="arg1,arg2" Name="GroupedOperationWithOptions" Label="for IsInt, IsInt"/>
+  <Returns>IsInt</Returns>
+  <Description>
+    Description 1
+    Description 1
+    Description 2
+    Description 2
+  </Description>
+</ManSection>
+
+
 </Section>

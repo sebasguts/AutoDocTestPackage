@@ -3,14 +3,96 @@
 <!-- This is an automatically generated file. -->
 <Section Label="Chapter_With_chapter_info_Section_Category_section_automatically_generated_documentation_parts">
 <Heading>Category section</Heading>
-This section is for categories<#Include Label="ACategory86F2986E86E4E275">
+This section is for categories<ManSection>
+  <Filt Arg="arg1" Name="ACategory" Label="for IsObject"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    A test.
+  </Description>
+</ManSection>
+
+
 Text2
-<#Include Label="ACategoryWithOptions7C9F49C07EACA826">
-<#Include Label="ACategoryWithMoreOpt8355CD367E8ADF00">
-<#Include Label="ACategoryWithMoreOpt790B82467E082A1A">
-<#Include Label="ARepresentation823AE923859F61B6">
-<#Include Label="ARepresentationWithO820361E57D19FE1B">
-<#Include Label="ARepresentationWithM7EDAAC167E9292B2">
-<#Include Label="ARepresentationWithM7977C17D7A4051AF">
-<#Include Label="AGroupedRepresentati7CC7FF9F87DA97E9">
+<ManSection>
+  <Filt Arg="arg1" Name="ACategoryWithOptions" Label="for IsObject"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    a description
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Filt Arg="an argument" Name="ACategoryWithMoreOptions" Label="alabel"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    The description
+    of it.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Filt Arg="an argument" Name="ACategoryWithMoreOptionsWithOptions" Label="alabel"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    The description
+    of it.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentation" Label="for ACategory"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    A test.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentationWithOptions" Label="for ACategory"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    A test.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentationWithMoreOptions" Label="alabel"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    The description
+    of it.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentationWithMoreOptionsWithOptions" Label="alabel"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    The description
+    of it.
+  </Description>
+</ManSection>
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="AGroupedRepresentation" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="AGroupedRepresentationWithOptions" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="ASecondGroupedRepresentation" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="ASecondGroupedRepresentationWithOptions" Label="for IsObject"/>
+  <Returns><C>true</C> or <C>false</C></Returns>
+  <Description>
+    Description 1
+    Description 1
+    Description 2
+    Description 2
+  </Description>
+</ManSection>
+
+
 </Section>
