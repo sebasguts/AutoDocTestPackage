@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<Section Label=" Chapter_With_chapter_info_Section_global_automatically_generated_documentation_parts">
+<Section Label="Chapter_With_chapter_info_Section_global_automatically_generated_documentation_parts">
 <Heading>global</Heading>
 <#Include Label="ATestGlobalFunction86553B2E78369B13">
 <#Include Label="ATestGlobalFunctionW7A5DB53383F3B3C8">
