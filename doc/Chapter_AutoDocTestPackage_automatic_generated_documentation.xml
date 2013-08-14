@@ -3,7 +3,94 @@
 <!-- This is an automatically generated file. -->
 <Chapter Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_automatically_generated_documentation_parts">
 <Heading>AutoDocTestPackage automatic generated documentation</Heading>
-<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_methods.xml">
-<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_global_functions.xml">
-<#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentationSectionAutoDocTestPackage_automatic_generated_documentation_of_global_variables.xml">
+
+<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_methods_automatically_generated_documentation_parts">
+<Heading>AutoDocTestPackage automatic generated documentation of methods</Heading>
+
+<ManSection>
+  <Oper Arg="arg1" Name="GroupedOperation" Label="for IsInt"/>
+  <Oper Arg="arg1" Name="GroupedOperationWithOptions" Label="for IsInt"/>
+  <Oper Arg="arg1,arg2" Name="GroupedOperation" Label="for IsInt, IsInt"/>
+  <Oper Arg="arg1,arg2" Name="GroupedOperationWithOptions" Label="for IsInt, IsInt"/>
+ <Returns>IsInt</Returns>
+ <Description>
+    Description 1
+    Description 1
+    Description 2
+    Description 2
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Meth Arg="arg1" Name="AnOperation" Label="for IsObject, installed"/>
+ <Returns>integer</Returns>
+ <Description>
+    Im an operation
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Meth Arg="arg1" Name="AnOperationWithOptions" Label="for IsObject, installed"/>
+ <Returns>integer</Returns>
+ <Description>
+    Im an operation
+ </Description>
+</ManSection>
+
+</Section>
+
+<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_functions_automatically_generated_documentation_parts">
+<Heading>AutoDocTestPackage automatic generated documentation of global functions</Heading>
+
+<ManSection>
+  <Func Arg="arg" Name="AnotherTestGlobalFunction" />
+ <Returns>Integer</Returns>
+ <Description>
+    a global function
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Func Arg="arg" Name="AnotherTestGlobalFunctionWithOptions" />
+ <Returns>Integer</Returns>
+ <Description>
+    a global function
+ </Description>
+</ManSection>
+
+</Section>
+
+<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_variables_automatically_generated_documentation_parts">
+<Heading>AutoDocTestPackage automatic generated documentation of global variables</Heading>
+
+<ManSection>
+  <Var Name="AnotherGlobalVariable" />
+ <Description>
+    I'm a global variable.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Var Name="AnotherGlobalVariableWithOptions" />
+ <Description>
+    I'm a global variable.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Var Name="GroupedGlobalVariable" />
+  <Var Name="GroupedGlobalVariableWithOptions" />
+  <Var Name="GroupedGlobalVariable2" />
+  <Var Name="GroupedGlobalVariable2WithOptions" />
+ <Description>
+    Global 1
+    Global 1
+    Global 2
+    Global 2
+ </Description>
+</ManSection>
+
+</Section>
+
 </Chapter>
+
