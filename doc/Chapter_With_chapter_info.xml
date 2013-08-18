@@ -3,10 +3,206 @@
 <!-- This is an automatically generated file. -->
 <Chapter Label="Chapter_With_chapter_info_automatically_generated_documentation_parts">
 <Heading>With chapter info</Heading>
-This is a user set chapter<#Include SYSTEM "Chapter_With_chapter_infoSectionCategory_section.xml">
-Text1
-<#Include SYSTEM "Chapter_With_chapter_infoSectionSecond_section.xml">
-<#Include SYSTEM "Chapter_With_chapter_infoSectionAttributes.xml">
-<#Include SYSTEM "Chapter_With_chapter_infoSectionOperations.xml">
-<#Include SYSTEM "Chapter_With_chapter_infoSectionglobal.xml">
+
+ This is a user set chapter
+
+
+<Section Label="Chapter_With_chapter_info_Section_Category_section_automatically_generated_documentation_parts">
+<Heading>Category section</Heading>
+
+ This section
+ is for categories
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="ACategory" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A test.
+ </Description>
+</ManSection>
+
+ Text2
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="ACategoryWithOptions" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    a description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="an argument" Name="ACategoryWithMoreOptions" Label="alabel"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    The description
+    of it.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="an argument" Name="ACategoryWithMoreOptionsWithOptions" Label="alabel"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    The description
+    of it.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentation" Label="for ACategory"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A test.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentationWithOptions" Label="for ACategory"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A test.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentationWithMoreOptions" Label="alabel"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    The description
+    of it.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="arg1" Name="ARepresentationWithMoreOptionsWithOptions" Label="alabel"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    The description
+    of it.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="arg1" Name="AGroupedRepresentation" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="AGroupedRepresentationWithOptions" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="ASecondGroupedRepresentation" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="ASecondGroupedRepresentationWithOptions" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    Description 1
+    Description 1
+    Description 2
+    Description 2
+ </Description>
+</ManSection>
+
+</Section>
+
+ Text1
+
+
+<Section Label="Chapter_With_chapter_info_Section_Second_section_automatically_generated_documentation_parts">
+<Heading>Second section</Heading>
+
+<ManSection>
+  <Prop Arg="argument" Name="AProperty" Label="testproperty"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    Description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Prop Arg="argument" Name="APropertyWithOptions" Label="testproperty"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    Description
+ </Description>
+</ManSection>
+
+</Section>
+
+<Section Label="Chapter_With_chapter_info_Section_Attributes_automatically_generated_documentation_parts">
+<Heading>Attributes</Heading>
+
+<ManSection>
+  <Attr Arg="ItsArgument" Name="AnAttribute" Label="for IsObject"/>
+ <Returns>another thing</Returns>
+ <Description>
+    A description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Attr Arg="ItsArgument" Name="AnAttributeWithOptions" Label="for IsObject"/>
+ <Returns>another thing</Returns>
+ <Description>
+    A description
+ </Description>
+</ManSection>
+
+</Section>
+
+<Section Label="Chapter_With_chapter_info_Section_Operations_automatically_generated_documentation_parts">
+<Heading>Operations</Heading>
+
+<ManSection>
+  <Oper Arg="arg1" Name="AnOperation" Label="for IsObject"/>
+ <Returns>IsInt</Returns>
+ <Description>
+    Description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Oper Arg="arg1" Name="AnOperationWithOptions" Label="for IsObject"/>
+ <Returns>IsInt</Returns>
+ <Description>
+    Description
+ </Description>
+</ManSection>
+
+</Section>
+
+<Section Label="Chapter_With_chapter_info_Section_global_automatically_generated_documentation_parts">
+<Heading>global</Heading>
+
+<ManSection>
+  <Func Arg="" Name="ATestGlobalFunction" />
+ <Returns>Integer</Returns>
+ <Description>
+    This is
+    a global function
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Func Arg="" Name="ATestGlobalFunctionWithOptions" />
+ <Returns>Integer</Returns>
+ <Description>
+    This is
+    a global function
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Var Name="GlobalVariable" />
+ <Description>
+    I'm a global variable.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Var Name="GlobalVariableWithOptions" />
+ <Description>
+    I'm a global variable.
+ </Description>
+</ManSection>
+
+</Section>
+
 </Chapter>
+

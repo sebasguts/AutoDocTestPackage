@@ -3,8 +3,71 @@
 <!-- This is an automatically generated file. -->
 <Chapter Label="Chapter_Default_chapter_automatically_generated_documentation_parts">
 <Heading>Default chapter</Heading>
-Just
-another
-headline
-<#Include SYSTEM "Chapter_Default_chapterSectionDefault_section.xml">
+
+ Just
+ another
+ headline
+
+
+<Section Label="Chapter_Default_chapter_Section_Default_section_automatically_generated_documentation_parts">
+<Heading>Default section</Heading>
+
+ Another test
+
+
+<ManSection>
+  <Filt Arg="arg1" Name="AGroupedCategory" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="ASecondGroupedCategory" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    Description 1
+    Description 2
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="arg1" Name="AGroupedCategoryWithOptions" Label="for IsObject"/>
+  <Filt Arg="arg1" Name="ASecondGroupedCategoryWithOptions" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    Description 1
+    Description 2
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Prop Arg="arg1" Name="AnotherProperty" Label="for AGroupedRepresentation"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A very nice description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Prop Arg="arg1" Name="AnotherPropertyWithOptions" Label="for AGroupedRepresentation"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A very nice description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Attr Arg="arg1" Name="AnotherAttribute" Label="for IsObject"/>
+ <Returns>returnvalue</Returns>
+ <Description>
+    AnotherDescription
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Attr Arg="arg1" Name="AnotherAttributeWithOptions" Label="for IsObject"/>
+ <Returns>returnvalue</Returns>
+ <Description>
+    AnotherDescription
+ </Description>
+</ManSection>
+
+</Section>
+
 </Chapter>
+
