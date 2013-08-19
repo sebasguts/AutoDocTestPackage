@@ -13,6 +13,8 @@
 <Body>
 <Index>&AutoDocTestPackage;</Index>
 <#Include SYSTEM "AutoDocMainFile.xml">
+<#Include SYSTEM "handwritten.xml">
 </Body>
+<#Include SYSTEM "appendix.xml">
 <TheIndex/>
 </Book>

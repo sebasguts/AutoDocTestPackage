@@ -40,6 +40,7 @@ Subtitle := "A simple test package",
 ##  of valid version numbers. For an automatic package distribution update
 ##  you must provide a new version number even after small changes.
 Version :=  Maximum( [
+  "2013.08.09:17:04", ## Max' version
 ## this line prevents merge conflicts
   "2013.08.09", ## Sebas' version
 ] ),
@@ -264,15 +265,15 @@ PackageDoc := rec(
 Dependencies := rec(
   # GAP version, use version strings for specifying exact versions,
   # prepend a '>=' for specifying a least version.
-  GAP := ">=4.3",
+  GAP := ">=4.5",
   # list of pairs [package name, (least) version],  package name is case
   # insensitive, least version denoted with '>=' prepended to version string.
   # without these, the package will not load
   # NeededOtherPackages := [["GAPDoc", ">= 0.99"]],
-  NeededOtherPackages := [ [ "AutoDoc", ">=2013.07.31" ] ],
+  NeededOtherPackages := [ [ "AutoDoc", ">=2013.08.09:14:09" ] ],
   # without these the package will issue a warning while loading
   # SuggestedOtherPackages := [],
-  SuggestedOtherPackages := [ [ "GAPDoc", ">=0.99" ] ],
+  SuggestedOtherPackages := [ [ "GAPDoc", ">=1.5" ] ],
   # needed external conditions (programs, operating system, ...)  provide 
   # just strings as text or
   # pairs [text, URL] where URL  provides further information
@@ -301,16 +302,6 @@ AvailabilityTest := function()
     return true;
   end,
 
-##  The LoadPackage mechanism can produce a default banner from the info
-##  in this file. If you are not happy with it, you can provide a string
-##  here that is used as a banner. GAP decides when the banner is shown and
-##  when it is not shown. *optional* (note the ~-syntax in this example)
-BannerString := Concatenation( 
-  "----------------------------------------------------------------\n",
-  "Loading  AutoDocTestPackage ", ~.Version, "\n",
-  "by Sebastian Gutsche\n",
-  "----------------------------------------------------------------\n" ),
-
 ##  Suggest here if the package should be *automatically loaded* when GAP is 
 ##  started.  This should usually be 'false'. Say 'true' only if your package 
 ##  provides some improvements of the GAP library which are likely to enhance 
@@ -324,7 +315,7 @@ Autoload := false,
 ##  *Optional*: Here you can list some keyword related to the topic 
 ##  of the package.
 # Keywords := ["Smith normal form", "p-adic", "rational matrix inversion"]
-Keywords := []
+Keywords := [],
 
 ));
 
