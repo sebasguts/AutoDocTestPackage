@@ -49,22 +49,6 @@
  </Description>
 </ManSection>
 
-<ManSection>
-  <Oper Arg="args" Name="MoreStuff" Label="for IsList, IsThings"/>
- <Returns>fail</Returns>
- <Description>
-    
- </Description>
-</ManSection>
-
-<ManSection>
-  <Oper Arg="args" Name="NoStuff" Label="for IsList, IsStuff"/>
- <Returns>fail</Returns>
- <Description>
-    
- </Description>
-</ManSection>
-
 </Section>
 
 <Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_functions_automatically_generated_documentation_parts">
