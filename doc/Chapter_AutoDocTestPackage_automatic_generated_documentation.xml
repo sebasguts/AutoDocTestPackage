@@ -12,11 +12,15 @@
   <Oper Arg="arg1" Name="GroupedOperationWithOptions" Label="for IsInt"/>
   <Oper Arg="arg1,arg2" Name="GroupedOperation" Label="for IsInt, IsInt"/>
   <Oper Arg="arg1,arg2" Name="GroupedOperationWithOptions" Label="for IsInt, IsInt"/>
+  <Oper Arg="args" Name="GroupedOperationForParser" Label="for IsInt"/>
+  <Oper Arg="args" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
  <Returns>IsInt</Returns>
  <Description>
     Description 1
     Description 1
     Description 2
+    Description 2
+    Description 1
     Description 2
  </Description>
 </ManSection>
@@ -34,6 +38,30 @@
  <Returns>integer</Returns>
  <Description>
     Im an operation
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Oper Arg="args" Name="SomeStuff" Label="for IsList, IsList"/>
+ <Returns>fail</Returns>
+ <Description>
+    
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Oper Arg="args" Name="MoreStuff" Label="for IsList, IsThings"/>
+ <Returns>fail</Returns>
+ <Description>
+    
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Oper Arg="args" Name="NoStuff" Label="for IsList, IsStuff"/>
+ <Returns>fail</Returns>
+ <Description>
+    
  </Description>
 </ManSection>
 
@@ -82,11 +110,15 @@
   <Var Name="GroupedGlobalVariableWithOptions" />
   <Var Name="GroupedGlobalVariable2" />
   <Var Name="GroupedGlobalVariable2WithOptions" />
+  <Var Name="GroupedGlobalVariableForParser" Label="false"/>
+  <Var Name="GroupedGlobalVariable2ForParser" Label="false"/>
  <Description>
     Global 1
     Global 1
     Global 2
     Global 2
+    Global 1
+    Global 2",
  </Description>
 </ManSection>
 

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Chapter_Default_chapter_parser_automatically_generated_documentation_parts">
+<Heading>Default chapter parser</Heading>
+
+ Just
+ another
+ headline
+
+
+<Section Label="Chapter_Default_chapter_parser_Section_Parser_default_section_automatically_generated_documentation_parts">
+<Heading>Parser default section</Heading>
+
+ Another test
+
+
+<ManSection>
+  <Filt Arg="args" Name="ACategoryForParser" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A test.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="an argument" Name="ACategoryWithMoreOptionsForParser" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    The description of it
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="args" Name="ARepresentationForParser" Label="for ACategoryForParser"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A test.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Filt Arg="args" Name="ARepresentationWithMoreOptionsForParser" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    The description of it.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Prop Arg="argument" Name="APropertyForParser" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    Description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Prop Arg="args" Name="AnotherPropertyForParser" Label="for AGroupedRepresentation"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    A very nice description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Attr Arg="ItsArgument" Name="AnAttributeForParser" Label="for IsObject"/>
+ <Returns>another thing</Returns>
+ <Description>
+    A description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Attr Arg="args" Name="AnotherAttributeForParser" Label="for IsObject"/>
+ <Returns>returnvalue</Returns>
+ <Description>
+    AnotherDescription
+ </Description>
+</ManSection>
+
+</Section>
+
+<Section Label="Chapter_Default_chapter_parser_Section_Just_another_section_automatically_generated_documentation_parts">
+<Heading>Just another section</Heading>
+
+<ManSection>
+  <Oper Arg="args" Name="AnOperationForParser" Label="for IsObject"/>
+ <Returns>IsInt</Returns>
+ <Description>
+    Description
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Func Arg="args" Name="ATestGlobalFunctionForParser" Label="false"/>
+ <Returns>Integer</Returns>
+ <Description>
+    This is a global function
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Func Arg="arg" Name="AnotherTestGlobalFunctionForParser" Label="false"/>
+ <Returns>Integer</Returns>
+ <Description>
+    a global function
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Var Name="GlobalVariableForParser" Label="false"/>
+ <Returns>fail</Returns>
+ <Description>
+    I'm a global variable.
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Var Name="AnotherGlobalVariableForParser" Label="false"/>
+ <Returns>fail</Returns>
+ <Description>
+    I'm a global variable.
+ </Description>
+</ManSection>
+
+</Section>
+
+</Chapter>
+

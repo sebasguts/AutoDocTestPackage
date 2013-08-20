@@ -31,3 +31,4 @@ AutoDoc(
 PrintTo( "VERSION", PackageInfo( "AutoDocTestPackage" )[1].Version );
 
 QUIT;
+

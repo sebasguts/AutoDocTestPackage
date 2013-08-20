@@ -90,11 +90,15 @@
   <Filt Arg="arg1" Name="AGroupedRepresentationWithOptions" Label="for IsObject"/>
   <Filt Arg="arg1" Name="ASecondGroupedRepresentation" Label="for IsObject"/>
   <Filt Arg="arg1" Name="ASecondGroupedRepresentationWithOptions" Label="for IsObject"/>
+  <Filt Arg="args" Name="AGroupedRepresentationForParser" Label="for IsObject"/>
+  <Filt Arg="args" Name="ASecondGroupedRepresentationForParser" Label="for IsObject"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
     Description 1
     Description 1
     Description 2
+    Description 2
+    Description 1
     Description 2
  </Description>
 </ManSection>

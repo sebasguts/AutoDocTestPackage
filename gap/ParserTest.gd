@@ -50,6 +50,7 @@ DeclareOperation( "SomeOperation", [ IsList, IsStuff ] );
 ## Do not scan this
 DeclareAttribute( "AnAttributeWithStuff", IsToricVariety );
 
+
 #! @Section Another section in this chapter
 #! This is another section.
 #! It has a group in it. Watch out.
