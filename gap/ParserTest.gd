@@ -38,13 +38,13 @@ DeclareOperation( "NoStuff", [ IsList, IsStuff ] );
 #! @Description
 #! Some description for a function.
 #! this should appear there.
-#! @ReturnValue something
+#! @Returns something
 #! @Arguments arguments
 DeclareOperation( "SomeOperation", [ IsList, IsStuff ] );
 
 ## Now we should test a category and an attribute maybe.
 
-#! @ReturnValue a value
+#! @Returns a value
 #! @Description
 #! Another description here.
 ## Do not scan this

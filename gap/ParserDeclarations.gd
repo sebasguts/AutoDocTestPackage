@@ -94,7 +94,7 @@ DeclareProperty( "AnotherPropertyForParser",
 
 #! @Description 
 #!  A description
-#! @ReturnValue another thing
+#! @Returns another thing
 #! @Arguments ItsArgument
 #! @ChapterInfo With_chapter_info, Attributes
 DeclareAttribute( "AnAttributeForParser",
@@ -102,7 +102,7 @@ DeclareAttribute( "AnAttributeForParser",
 
 #! @Description 
 #!  AnotherDescription
-#! @ReturnValue returnvalue
+#! @Returns returnvalue
 DeclareAttribute( "AnotherAttributeForParser",
                          IsObject );
 
@@ -112,32 +112,32 @@ DeclareAttribute( "AnotherAttributeForParser",
 
 #! @Description
 #!  Description
-#! @ReturnValue IsInt
+#! @Returns IsInt
 #! @ChapterInfo With_chapter_info, Operations
 DeclareOperation( "AnOperationForParser",
                          [ IsObject ] );
 #! @Description
 #!  Description 1
-#! @ReturnValue IsInt
+#! @Returns IsInt
 #! @Group operationgroup
 DeclareOperation( "GroupedOperationForParser",
                          [ IsInt ] );
 #! @Description
 #!  Description 2
-#! @ReturnValue IsInt
+#! @Returns IsInt
 #! @Group operationgroup
 DeclareOperation( "GroupedOperationForParser",
                          [ IsInt, IsInt ] );
 
 #! @Description
 #!  This is a global function
-#! @ReturnValue Integer
+#! @Returns Integer
 #! @ChapterInfo With_chapter_info, global
 DeclareGlobalFunction( "ATestGlobalFunctionForParser" );
 
 #! @Description
 #!  a global function
-#! @ReturnValue Integer
+#! @Returns Integer
 #! @Arguments arg
 DeclareGlobalFunction( "AnotherTestGlobalFunctionForParser" );
 
