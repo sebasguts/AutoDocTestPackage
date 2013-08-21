@@ -124,6 +124,22 @@
  </Description>
 </ManSection>
 
+<ManSection>
+  <Func Arg="c, bla" Name="MyMethod" Label="for IsStuff, IsThings"/>
+ <Returns>fail</Returns>
+ <Description>
+    Some stuff here
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Func Arg="bla, bla" Name="MyOtherMethod" Label="for IsToricVariety, IsOtherStuff"/>
+ <Returns>fail</Returns>
+ <Description>
+    Other stuff here.
+ </Description>
+</ManSection>
+
 </Section>
 
 </Chapter>

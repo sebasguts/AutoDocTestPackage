@@ -156,6 +156,27 @@ DeclareGlobalVariable( "AnotherGlobalVariableForParser" );
 DeclareGlobalVariable( "GroupedGlobalVariableForParser" );
 
 #! @Description
-#!  Global 2",
+#!  Global 2
 #! @Group globalvar
 DeclareGlobalVariable( "GroupedGlobalVariable2ForParser" );
+
+#! @Description
+#!  Some stuff here
+InstallMethod( MyMethod,
+               [ IsStuff, IsThings ],
+               
+  function( c, bla )
+    
+    
+end );
+
+#! @Description
+#!  Other stuff here.
+#! @Arguments bla, bla
+InstallMethod( MyOtherMethod,
+               [ IsToricVariety, IsOtherStuff ],
+               
+  function( bla )
+    
+    
+end );
