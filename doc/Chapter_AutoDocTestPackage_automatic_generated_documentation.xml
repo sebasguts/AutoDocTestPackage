@@ -43,7 +43,6 @@
 
 <ManSection>
   <Oper Arg="arg1,arg2" Name="SomeStuff" Label="for IsList, IsList"/>
- <Returns>fail</Returns>
  <Description>
     
  </Description>
