@@ -12,8 +12,8 @@
   <Oper Arg="arg1" Name="GroupedOperationWithOptions" Label="for IsInt"/>
   <Oper Arg="arg1,arg2" Name="GroupedOperation" Label="for IsInt, IsInt"/>
   <Oper Arg="arg1,arg2" Name="GroupedOperationWithOptions" Label="for IsInt, IsInt"/>
-  <Oper Arg="args" Name="GroupedOperationForParser" Label="for IsInt"/>
-  <Oper Arg="args" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
+  <Oper Arg="arg" Name="GroupedOperationForParser" Label="for IsInt"/>
+  <Oper Arg="arg1,arg2" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
  <Returns>IsInt</Returns>
  <Description>
     Description 1
@@ -42,7 +42,7 @@
 </ManSection>
 
 <ManSection>
-  <Oper Arg="args" Name="SomeStuff" Label="for IsList, IsList"/>
+  <Oper Arg="arg1,arg2" Name="SomeStuff" Label="for IsList, IsList"/>
  <Returns>fail</Returns>
  <Description>
     

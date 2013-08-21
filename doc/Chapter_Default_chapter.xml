@@ -28,8 +28,8 @@
 <ManSection>
   <Filt Arg="arg1" Name="AGroupedCategoryWithOptions" Label="for IsObject"/>
   <Filt Arg="arg1" Name="ASecondGroupedCategoryWithOptions" Label="for IsObject"/>
-  <Filt Arg="args" Name="AGroupedCategoryForParser" Label="for IsObject"/>
-  <Filt Arg="args" Name="ASecondGroupedCategoryForParser" Label="for IsObject"/>
+  <Filt Arg="arg" Name="AGroupedCategoryForParser" Label="for IsObject"/>
+  <Filt Arg="arg" Name="ASecondGroupedCategoryForParser" Label="for IsObject"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
     Description 1

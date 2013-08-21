@@ -25,7 +25,7 @@
 </ManSection>
 
 <ManSection>
-  <Attr Arg="args" Name="AnAttributeWithStuff" Label="for IsToricVariety"/>
+  <Attr Arg="arg" Name="AnAttributeWithStuff" Label="for IsToricVariety"/>
  <Returns>a value</Returns>
  <Description>
     Another description here.
@@ -42,8 +42,8 @@
 
 
 <ManSection>
-  <Filt Arg="args" Name="MyCategory" Label="for IsObject"/>
-  <Filt Arg="args" Name="AlsoMyCategory" Label="for IsObject"/>
+  <Filt Arg="arg" Name="MyCategory" Label="for IsObject"/>
+  <Filt Arg="arg" Name="AlsoMyCategory" Label="for IsObject"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
     A category

@@ -16,7 +16,7 @@
 
 
 <ManSection>
-  <Filt Arg="args" Name="ACategoryForParser" Label="for IsObject"/>
+  <Filt Arg="arg" Name="ACategoryForParser" Label="for IsObject"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
     A test.
@@ -32,7 +32,7 @@
 </ManSection>
 
 <ManSection>
-  <Filt Arg="args" Name="ARepresentationForParser" Label="for ACategoryForParser"/>
+  <Filt Arg="arg" Name="ARepresentationForParser" Label="for ACategoryForParser"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
     A test.
@@ -40,7 +40,7 @@
 </ManSection>
 
 <ManSection>
-  <Filt Arg="args" Name="ARepresentationWithMoreOptionsForParser" Label="for IsObject"/>
+  <Filt Arg="arg" Name="ARepresentationWithMoreOptionsForParser" Label="for IsObject"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
     The description of it.
@@ -56,7 +56,7 @@
 </ManSection>
 
 <ManSection>
-  <Prop Arg="args" Name="AnotherPropertyForParser" Label="for AGroupedRepresentation"/>
+  <Prop Arg="arg" Name="AnotherPropertyForParser" Label="for AGroupedRepresentation"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
     A very nice description
@@ -72,7 +72,7 @@
 </ManSection>
 
 <ManSection>
-  <Attr Arg="args" Name="AnotherAttributeForParser" Label="for IsObject"/>
+  <Attr Arg="arg" Name="AnotherAttributeForParser" Label="for IsObject"/>
  <Returns>returnvalue</Returns>
  <Description>
     AnotherDescription
@@ -85,7 +85,7 @@
 <Heading>Just another section</Heading>
 
 <ManSection>
-  <Oper Arg="args" Name="AnOperationForParser" Label="for IsObject"/>
+  <Oper Arg="arg" Name="AnOperationForParser" Label="for IsObject"/>
  <Returns>IsInt</Returns>
  <Description>
     Description
@@ -93,7 +93,7 @@
 </ManSection>
 
 <ManSection>
-  <Func Arg="args" Name="ATestGlobalFunctionForParser" Label="false"/>
+  <Func Arg="arg" Name="ATestGlobalFunctionForParser" Label="false"/>
  <Returns>Integer</Returns>
  <Description>
     This is a global function
