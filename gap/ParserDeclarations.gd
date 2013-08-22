@@ -31,7 +31,7 @@ DeclareCategory( "ACategoryForParser",
 #!  The description of it
 #! @Arguments an argument
 #! @ChapterInfo With_chapter_info, Category section parser
-#! @FunctionLabel alabel
+#! @Label alabel
 DeclareCategory( "ACategoryWithMoreOptionsForParser",
                         IsObject );
 
@@ -57,7 +57,7 @@ DeclareRepresentation( "ARepresentationForParser",
 #! @Description
 #!  The description of it.
 #! @ChapterInfo With_chapter_info, Category_section parser
-#! @FunctionLabel alabel
+#! @Label alabel
 DeclareRepresentation( "ARepresentationWithMoreOptionsForParser",
                               IsObject,
                               [ ] );
@@ -83,7 +83,7 @@ DeclareRepresentation( "ASecondGroupedRepresentationForParser",
 #!  Description
 #! @Arguments argument
 #! @ChapterInfo With_chapter_info, Second_section
-#! @FunctionLabel testproperty
+#! @Label testproperty
 DeclareProperty( "APropertyForParser",
                         IsObject );
 
