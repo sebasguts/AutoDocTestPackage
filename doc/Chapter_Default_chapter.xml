@@ -15,7 +15,7 @@
  Another test
 
 
-<ManSection>
+<ManSection Label="category">
   <Filt Arg="arg1" Name="AGroupedCategory" Label="for IsObject"/>
   <Filt Arg="arg1" Name="ASecondGroupedCategory" Label="for IsObject"/>
  <Returns><C>true</C> or <C>false</C></Returns>
@@ -25,7 +25,7 @@
  </Description>
 </ManSection>
 
-<ManSection>
+<ManSection Label="categorywo">
   <Filt Arg="arg1" Name="AGroupedCategoryWithOptions" Label="for IsObject"/>
   <Filt Arg="arg1" Name="ASecondGroupedCategoryWithOptions" Label="for IsObject"/>
   <Filt Arg="arg" Name="AGroupedCategoryForParser" Label="for IsObject"/>

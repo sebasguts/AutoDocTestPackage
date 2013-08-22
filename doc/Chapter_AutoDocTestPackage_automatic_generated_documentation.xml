@@ -7,7 +7,7 @@
 <Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_methods_automatically_generated_documentation_parts">
 <Heading>AutoDocTestPackage automatic generated documentation of methods</Heading>
 
-<ManSection>
+<ManSection Label="operationgroup">
   <Oper Arg="arg1" Name="GroupedOperation" Label="for IsInt"/>
   <Oper Arg="arg1" Name="GroupedOperationWithOptions" Label="for IsInt"/>
   <Oper Arg="arg1,arg2" Name="GroupedOperation" Label="for IsInt, IsInt"/>
@@ -88,7 +88,7 @@
  </Description>
 </ManSection>
 
-<ManSection>
+<ManSection Label="globalvar">
   <Var Name="GroupedGlobalVariable" />
   <Var Name="GroupedGlobalVariableWithOptions" />
   <Var Name="GroupedGlobalVariable2" />

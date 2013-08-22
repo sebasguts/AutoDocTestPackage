@@ -41,7 +41,7 @@
  It has a group in it. Watch out.
 
 
-<ManSection>
+<ManSection Label="DuWarstJaNichtInMeinerGruppe">
   <Filt Arg="arg" Name="MyCategory" Label="for IsObject"/>
   <Filt Arg="arg" Name="AlsoMyCategory" Label="for IsObject"/>
  <Returns><C>true</C> or <C>false</C></Returns>

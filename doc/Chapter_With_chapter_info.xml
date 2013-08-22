@@ -85,7 +85,7 @@
  </Description>
 </ManSection>
 
-<ManSection>
+<ManSection Label="representation">
   <Filt Arg="arg1" Name="AGroupedRepresentation" Label="for IsObject"/>
   <Filt Arg="arg1" Name="AGroupedRepresentationWithOptions" Label="for IsObject"/>
   <Filt Arg="arg1" Name="ASecondGroupedRepresentation" Label="for IsObject"/>
