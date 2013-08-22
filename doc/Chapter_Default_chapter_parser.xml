@@ -93,7 +93,7 @@
 </ManSection>
 
 <ManSection>
-  <Func Arg="arg" Name="ATestGlobalFunctionForParser" Label="false"/>
+  <Func Arg="arg" Name="ATestGlobalFunctionForParser" />
  <Returns>Integer</Returns>
  <Description>
     This is a global function
@@ -101,7 +101,7 @@
 </ManSection>
 
 <ManSection>
-  <Func Arg="arg" Name="AnotherTestGlobalFunctionForParser" Label="false"/>
+  <Func Arg="arg" Name="AnotherTestGlobalFunctionForParser" />
  <Returns>Integer</Returns>
  <Description>
     a global function
@@ -109,7 +109,7 @@
 </ManSection>
 
 <ManSection>
-  <Var Name="GlobalVariableForParser" Label="false"/>
+  <Var Name="GlobalVariableForParser" />
  <Returns>fail</Returns>
  <Description>
     I'm a global variable.
@@ -117,7 +117,7 @@
 </ManSection>
 
 <ManSection>
-  <Var Name="AnotherGlobalVariableForParser" Label="false"/>
+  <Var Name="AnotherGlobalVariableForParser" />
  <Returns>fail</Returns>
  <Description>
     I'm a global variable.

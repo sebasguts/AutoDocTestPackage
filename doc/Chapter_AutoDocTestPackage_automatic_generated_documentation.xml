@@ -93,8 +93,8 @@
   <Var Name="GroupedGlobalVariableWithOptions" />
   <Var Name="GroupedGlobalVariable2" />
   <Var Name="GroupedGlobalVariable2WithOptions" />
-  <Var Name="GroupedGlobalVariableForParser" Label="false"/>
-  <Var Name="GroupedGlobalVariable2ForParser" Label="false"/>
+  <Var Name="GroupedGlobalVariableForParser" />
+  <Var Name="GroupedGlobalVariable2ForParser" />
  <Description>
     Global 1
     Global 1
