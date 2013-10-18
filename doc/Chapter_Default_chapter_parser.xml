@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<Chapter Label="Chapter_Default_chapter_parser_automatically_generated_documentation_parts">
+<Chapter Label="Chapter_Default_chapter_parser">
 <Heading>Default chapter parser</Heading>
 
  Just
@@ -9,7 +9,7 @@
  headline
 
 
-<Section Label="Chapter_Default_chapter_parser_Section_Parser_default_section_automatically_generated_documentation_parts">
+<Section Label="Chapter_Default_chapter_parser_Section_Parser_default_section">
 <Heading>Parser default section</Heading>
 
  Another test
@@ -37,7 +37,7 @@
 
 </Section>
 
-<Section Label="Chapter_Default_chapter_parser_Section_Just_another_section_automatically_generated_documentation_parts">
+<Section Label="Chapter_Default_chapter_parser_Section_Just_another_section">
 <Heading>Just another section</Heading>
 
 <ManSection>

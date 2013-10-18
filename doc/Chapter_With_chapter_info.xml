@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<Chapter Label="Chapter_With_chapter_info_automatically_generated_documentation_parts">
+<Chapter Label="Chapter_With_chapter_info">
 <Heading>With chapter info</Heading>
 
  This is a user set chapter
 
 
-<Section Label="Chapter_With_chapter_info_Section_Category_section_automatically_generated_documentation_parts">
+<Section Label="Chapter_With_chapter_info_Section_Category_section">
 <Heading>Category section</Heading>
 
  This section
@@ -108,7 +108,7 @@
  Text1
 
 
-<Section Label="Chapter_With_chapter_info_Section_Second_section_automatically_generated_documentation_parts">
+<Section Label="Chapter_With_chapter_info_Section_Second_section">
 <Heading>Second section</Heading>
 
 <ManSection>
@@ -137,7 +137,7 @@
 
 </Section>
 
-<Section Label="Chapter_With_chapter_info_Section_Attributes_automatically_generated_documentation_parts">
+<Section Label="Chapter_With_chapter_info_Section_Attributes">
 <Heading>Attributes</Heading>
 
 <ManSection>
@@ -166,7 +166,7 @@
 
 </Section>
 
-<Section Label="Chapter_With_chapter_info_Section_Operations_automatically_generated_documentation_parts">
+<Section Label="Chapter_With_chapter_info_Section_Operations">
 <Heading>Operations</Heading>
 
 <ManSection>
@@ -195,7 +195,7 @@
 
 </Section>
 
-<Section Label="Chapter_With_chapter_info_Section_global_automatically_generated_documentation_parts">
+<Section Label="Chapter_With_chapter_info_Section_global">
 <Heading>global</Heading>
 
 <ManSection>
@@ -247,7 +247,7 @@
 
 </Section>
 
-<Section Label="Chapter_With_chapter_info_Section_Category_section_parser_automatically_generated_documentation_parts">
+<Section Label="Chapter_With_chapter_info_Section_Category_section_parser">
 <Heading>Category section parser</Heading>
 
 <ManSection>

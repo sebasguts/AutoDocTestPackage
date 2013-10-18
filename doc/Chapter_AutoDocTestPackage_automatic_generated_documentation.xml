@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<Chapter Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_automatically_generated_documentation_parts">
+<Chapter Label="Chapter_AutoDocTestPackage_automatic_generated_documentation">
 <Heading>AutoDocTestPackage automatic generated documentation</Heading>
 
-<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_methods_automatically_generated_documentation_parts">
+<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_methods">
 <Heading>AutoDocTestPackage automatic generated documentation of methods</Heading>
 
 <ManSection Label="operationgroup">
@@ -43,7 +43,7 @@
 
 </Section>
 
-<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_functions_automatically_generated_documentation_parts">
+<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_functions">
 <Heading>AutoDocTestPackage automatic generated documentation of global functions</Heading>
 
 <ManSection>
@@ -64,7 +64,7 @@
 
 </Section>
 
-<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_variables_automatically_generated_documentation_parts">
+<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_variables">
 <Heading>AutoDocTestPackage automatic generated documentation of global variables</Heading>
 
 <ManSection>

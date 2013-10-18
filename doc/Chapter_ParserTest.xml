@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<Chapter Label="Chapter_ParserTest_automatically_generated_documentation_parts">
+<Chapter Label="Chapter_ParserTest">
 <Heading>ParserTest</Heading>
 
  This tests the parser.
  Nothing else.
 
 
-<Section Label="Chapter_ParserTest_Section_ParserTestSection_automatically_generated_documentation_parts">
+<Section Label="Chapter_ParserTest_Section_ParserTestSection">
 <Heading>ParserTestSection</Heading>
 
  This is a section description.
@@ -34,7 +34,7 @@
 
 </Section>
 
-<Section Label="Chapter_ParserTest_Section_Another_section_in_this_chapter_automatically_generated_documentation_parts">
+<Section Label="Chapter_ParserTest_Section_Another_section_in_this_chapter">
 <Heading>Another section in this chapter</Heading>
 
  This is another section.
