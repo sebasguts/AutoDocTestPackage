@@ -27,6 +27,8 @@
 DeclareCategory( "ACategoryForParser",
                  IsObject );
 
+## FIXME: Label is missing
+
 #! @Description 
 #!  The description of it
 #! @Arguments an argument
@@ -35,11 +37,18 @@ DeclareCategory( "ACategoryForParser",
 DeclareCategory( "ACategoryWithMoreOptionsForParser",
                         IsObject );
 
+#! @Chunk MyChunk
+#! First line of chunk
+
+
 #! @Description
 #!  Description 1
 #! @Group categorywo
 DeclareCategory( "AGroupedCategoryForParser",
-                        IsObject );
+                 IsObject );
+
+#! @Chunk MyChunk
+#! Second line of chunk
 
 #! @Description 
 #! Description 2
@@ -47,12 +56,16 @@ DeclareCategory( "AGroupedCategoryForParser",
 DeclareCategory( "ASecondGroupedCategoryForParser",
                         IsObject );
 
+
+
 #! @Description
 #! A test.
 #! @ChapterInfo With_chapter_info, Category_section parser
 DeclareRepresentation( "ARepresentationForParser",
                               ACategoryForParser,
                               [ ] );
+
+## FIXME: Label is missing
 
 #! @Description
 #!  The description of it.
@@ -91,6 +104,8 @@ DeclareProperty( "APropertyForParser",
 #!  A very nice description
 DeclareProperty( "AnotherPropertyForParser",
                         AGroupedRepresentation );
+
+#! @InsertChunk MyChunk
 
 #! @Description 
 #!  A description
@@ -146,6 +161,10 @@ DeclareGlobalFunction( "AnotherTestGlobalFunctionForParser" );
 #! @ChapterInfo With_chapter_info, global
 DeclareGlobalVariable( "GlobalVariableForParser" );
 
+#! @SetLevel 1
+
+
+
 #! @Description
 #!  I'm a global variable.
 DeclareGlobalVariable( "AnotherGlobalVariableForParser" );
@@ -159,6 +178,10 @@ DeclareGlobalVariable( "GroupedGlobalVariableForParser" );
 #!  Global 2
 #! @Group globalvar
 DeclareGlobalVariable( "GroupedGlobalVariable2ForParser" );
+
+#! @SetLevel 2
+
+
 
 #! @Description
 #!  Some stuff here
@@ -180,3 +203,5 @@ InstallMethod( MyOtherMethod,
     
     
 end );
+
+#! @ResetLevel

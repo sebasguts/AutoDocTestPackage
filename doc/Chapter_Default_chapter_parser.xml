@@ -16,46 +16,6 @@
 
 
 <ManSection>
-  <Filt Arg="arg" Name="ACategoryForParser" Label="for IsObject"/>
- <Returns><C>true</C> or <C>false</C></Returns>
- <Description>
-    A test.
- </Description>
-</ManSection>
-
-<ManSection>
-  <Filt Arg="an argument" Name="ACategoryWithMoreOptionsForParser" Label="for IsObject"/>
- <Returns><C>true</C> or <C>false</C></Returns>
- <Description>
-    The description of it
- </Description>
-</ManSection>
-
-<ManSection>
-  <Filt Arg="arg" Name="ARepresentationForParser" Label="for ACategoryForParser"/>
- <Returns><C>true</C> or <C>false</C></Returns>
- <Description>
-    A test.
- </Description>
-</ManSection>
-
-<ManSection>
-  <Filt Arg="arg" Name="ARepresentationWithMoreOptionsForParser" Label="for IsObject"/>
- <Returns><C>true</C> or <C>false</C></Returns>
- <Description>
-    The description of it.
- </Description>
-</ManSection>
-
-<ManSection>
-  <Prop Arg="argument" Name="APropertyForParser" Label="for IsObject"/>
- <Returns><C>true</C> or <C>false</C></Returns>
- <Description>
-    Description
- </Description>
-</ManSection>
-
-<ManSection>
   <Prop Arg="arg" Name="AnotherPropertyForParser" Label="for AGroupedRepresentation"/>
  <Returns><C>true</C> or <C>false</C></Returns>
  <Description>
@@ -63,13 +23,9 @@
  </Description>
 </ManSection>
 
-<ManSection>
-  <Attr Arg="ItsArgument" Name="AnAttributeForParser" Label="for IsObject"/>
- <Returns>another thing</Returns>
- <Description>
-    A description
- </Description>
-</ManSection>
+ First line of chunk
+ Second line of chunk
+
 
 <ManSection>
   <Attr Arg="arg" Name="AnotherAttributeForParser" Label="for IsObject"/>
@@ -85,22 +41,6 @@
 <Heading>Just another section</Heading>
 
 <ManSection>
-  <Oper Arg="arg" Name="AnOperationForParser" Label="for IsObject"/>
- <Returns>IsInt</Returns>
- <Description>
-    Description
- </Description>
-</ManSection>
-
-<ManSection>
-  <Func Arg="arg" Name="ATestGlobalFunctionForParser" />
- <Returns>Integer</Returns>
- <Description>
-    This is a global function
- </Description>
-</ManSection>
-
-<ManSection>
   <Func Arg="arg" Name="AnotherTestGlobalFunctionForParser" />
  <Returns>Integer</Returns>
  <Description>
@@ -109,32 +49,33 @@
 </ManSection>
 
 <ManSection>
-  <Var Name="GlobalVariableForParser" />
- <Returns>fail</Returns>
- <Description>
-    I'm a global variable.
- </Description>
-</ManSection>
-
-<ManSection>
   <Var Name="AnotherGlobalVariableForParser" />
- <Returns>fail</Returns>
  <Description>
     I'm a global variable.
  </Description>
 </ManSection>
 
+ 
+
+
 <ManSection>
-  <Func Arg="c, bla" Name="MyMethod" Label="for IsStuff, IsThings"/>
+  <Oper Arg="arg1,arg2" Name="SomeStuff" Label="for IsList, IsList"/>
  <Description>
-    Some stuff here
+    
  </Description>
 </ManSection>
 
 <ManSection>
-  <Func Arg="bla, bla" Name="MyOtherMethod" Label="for IsToricVariety, IsOtherStuff"/>
+  <Oper Arg="arg1,arg2" Name="MoreStuff" Label="for IsList, IsThings"/>
  <Description>
-    Other stuff here.
+    
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Oper Arg="arg1,arg2" Name="NoStuff" Label="for IsList, IsStuff"/>
+ <Description>
+    
  </Description>
 </ManSection>
 

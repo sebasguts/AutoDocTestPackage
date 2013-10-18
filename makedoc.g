@@ -9,7 +9,8 @@ LoadPackage("AutoDoc");
 AutoDoc(
     "AutoDocTestPackage",
     rec(
-        scaffold := rec(
+
+scaffold := rec(
             includes := [
                 "AutoDocMainFile.xml",
                 "handwritten.xml",
@@ -17,6 +18,7 @@ AutoDoc(
             appendix := [ "appendix.xml" ],
         ),
         autodoc := rec(
+            level := 1,
             section_intros :=
                 [
                   [ "Intro", "This is a test docu" ],
@@ -30,5 +32,5 @@ AutoDoc(
 # Create VERSION file for "make towww"
 PrintTo( "VERSION", PackageInfo( "AutoDocTestPackage" )[1].Version );
 
-QUIT;
+## QUIT;
 
