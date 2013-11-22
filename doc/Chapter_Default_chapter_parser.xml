@@ -15,6 +15,16 @@
  Another test
 
 
+<ManSection Label="categorywo">
+  <Filt Arg="arg" Name="AGroupedCategoryForParser" Label="for IsObject"/>
+  <Filt Arg="arg" Name="ASecondGroupedCategoryForParser" Label="for IsObject"/>
+ <Returns><C>true</C> or <C>false</C></Returns>
+ <Description>
+    Description 1
+    Description 2
+ </Description>
+</ManSection>
+
 <ManSection>
   <Prop Arg="arg" Name="AnotherPropertyForParser" Label="for AGroupedRepresentation"/>
  <Returns><C>true</C> or <C>false</C></Returns>
@@ -40,6 +50,16 @@
 <Section Label="Chapter_Default_chapter_parser_Section_Just_another_section">
 <Heading>Just another section</Heading>
 
+<ManSection Label="operationgroup">
+  <Oper Arg="arg" Name="GroupedOperationForParser" Label="for IsInt"/>
+  <Oper Arg="arg1,arg2" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
+ <Returns>IsInt</Returns>
+ <Description>
+    Description 1
+    Description 2
+ </Description>
+</ManSection>
+
 <ManSection>
   <Func Arg="arg" Name="AnotherTestGlobalFunctionForParser" />
  <Returns>Integer</Returns>
@@ -52,6 +72,15 @@
   <Var Name="AnotherGlobalVariableForParser" />
  <Description>
     I'm a global variable.
+ </Description>
+</ManSection>
+
+<ManSection Label="globalvar">
+  <Var Name="GroupedGlobalVariableForParser" />
+  <Var Name="GroupedGlobalVariable2ForParser" />
+ <Description>
+    Global 1
+    Global 2
  </Description>
 </ManSection>
 

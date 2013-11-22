@@ -1,3 +1,3 @@
 
-ReadPackage( "AutoDocTestPackage", "gap/Declarations.gd" );
+## ReadPackage( "AutoDocTestPackage", "gap/Declarations.gd" );
 
