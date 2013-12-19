@@ -6,121 +6,134 @@
 
  This is a user set chapter
 
-
 <Section Label="Chapter_With_chapter_info_Section_Category_section">
 <Heading>Category section</Heading>
 
  This section
  is for categories
-
-
 </Section>
+
 
 <Section Label="Chapter_With_chapter_info_Section_Category_section_parser">
 <Heading>Category section parser</Heading>
 
 <ManSection>
   <Filt Arg="arg" Name="ACategoryForParser" Label="for IsObject"/>
- <Returns><C>true</C> or <C>false</C></Returns>
+ <Returns> <C>true</C> or <C>false</C>
+</Returns>
  <Description>
-    A test.
+ A test.
  </Description>
 </ManSection>
 
 <ManSection>
   <Filt Arg="an argument" Name="ACategoryWithMoreOptionsForParser" Label="alabel"/>
- <Returns><C>true</C> or <C>false</C></Returns>
+ <Returns> <C>true</C> or <C>false</C>
+</Returns>
  <Description>
-    The description of it
+ The description of it
  </Description>
 </ManSection>
 
 <ManSection>
   <Filt Arg="arg" Name="ARepresentationForParser" Label="for ACategoryForParser"/>
- <Returns><C>true</C> or <C>false</C></Returns>
+ <Returns> <C>true</C> or <C>false</C>
+</Returns>
  <Description>
-    A test.
+ A test.
  </Description>
 </ManSection>
 
 <ManSection>
   <Filt Arg="arg" Name="ARepresentationWithMoreOptionsForParser" Label="alabel"/>
- <Returns><C>true</C> or <C>false</C></Returns>
+ <Returns> <C>true</C> or <C>false</C>
+</Returns>
  <Description>
-    The description of it.
+ The description of it.
  </Description>
 </ManSection>
 
 <ManSection Label="representation">
   <Filt Arg="arg" Name="AGroupedRepresentationForParser" Label="for IsObject"/>
   <Filt Arg="arg" Name="ASecondGroupedRepresentationForParser" Label="for IsObject"/>
- <Returns><C>true</C> or <C>false</C></Returns>
+ <Returns> <C>true</C> or <C>false</C>
+</Returns>
  <Description>
-    Description 1
-    Description 2
+ Description 1
+ Description 2
  </Description>
 </ManSection>
 
 </Section>
+
 
 <Section Label="Chapter_With_chapter_info_Section_Second_section">
 <Heading>Second section</Heading>
 
 <ManSection>
   <Prop Arg="argument" Name="APropertyForParser" Label="testproperty"/>
- <Returns><C>true</C> or <C>false</C></Returns>
+ <Returns> <C>true</C> or <C>false</C>
+</Returns>
  <Description>
-    Description
+ Description
  </Description>
 </ManSection>
 
 </Section>
+
 
 <Section Label="Chapter_With_chapter_info_Section_Attributes">
 <Heading>Attributes</Heading>
 
 <ManSection>
   <Attr Arg="ItsArgument" Name="AnAttributeForParser" Label="for IsObject"/>
- <Returns>another thing</Returns>
+ <Returns> another thing
+</Returns>
  <Description>
-    A description
+ A description
  </Description>
 </ManSection>
 
 </Section>
+
 
 <Section Label="Chapter_With_chapter_info_Section_Operations">
 <Heading>Operations</Heading>
 
 <ManSection>
   <Oper Arg="arg" Name="AnOperationForParser" Label="for IsObject"/>
- <Returns>IsInt</Returns>
+ <Returns> IsInt
+</Returns>
  <Description>
-    Description
+ Description
  </Description>
 </ManSection>
 
 </Section>
+
 
 <Section Label="Chapter_With_chapter_info_Section_global">
 <Heading>global</Heading>
 
 <ManSection>
   <Func Arg="arg" Name="ATestGlobalFunctionForParser" />
- <Returns>Integer</Returns>
+ <Returns> Integer
+</Returns>
  <Description>
-    This is a global function
+ This is a global function
  </Description>
 </ManSection>
 
 <ManSection>
   <Var Name="GlobalVariableForParser" />
+ <Returns></Returns>
  <Description>
-    I'm a global variable.
+ I'm a global variable.
  </Description>
 </ManSection>
 
 </Section>
+
 
 </Chapter>
 

@@ -5,53 +5,53 @@
 <Heading>ParserTest</Heading>
 
  This tests the parser.
- Nothing else.
 
+ Nothing else.
 
 <Section Label="Chapter_ParserTest_Section_ParserTestSection">
 <Heading>ParserTestSection</Heading>
 
  This is a section description.
  Something that descibes a section. Bla Bla.
-
-
 <ManSection>
   <Oper Arg="arguments" Name="SomeOperation" Label="for IsList, IsStuff"/>
- <Returns>something</Returns>
+ <Returns> something
+</Returns>
  <Description>
-    Some description for a function.
-    this should appear there.
+ Some description for a function.
+ this should appear there.
  </Description>
 </ManSection>
 
 <ManSection>
   <Attr Arg="arg" Name="AnAttributeWithStuff" Label="for IsToricVariety"/>
- <Returns>a value</Returns>
+ <Returns> a value
+</Returns>
  <Description>
-    Another description here.
+ Another description here.
  </Description>
 </ManSection>
 
 </Section>
+
 
 <Section Label="Chapter_ParserTest_Section_Another_section_in_this_chapter">
 <Heading>Another section in this chapter</Heading>
 
  This is another section.
  It has a group in it. Watch out.
-
-
 <ManSection Label="DuWarstJaNichtInMeinerGruppe">
   <Filt Arg="arg" Name="MyCategory" Label="for IsObject"/>
   <Filt Arg="arg" Name="AlsoMyCategory" Label="for IsObject"/>
- <Returns><C>true</C> or <C>false</C></Returns>
+ <Returns> <C>true</C> or <C>false</C>
+</Returns>
  <Description>
-    A category
-    
+ A category
  </Description>
 </ManSection>
 
 </Section>
+
 
 </Chapter>
 

@@ -7,98 +7,29 @@
 <Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_methods">
 <Heading>AutoDocTestPackage automatic generated documentation of methods</Heading>
 
-<ManSection Label="operationgroup">
-  <Oper Arg="arg1" Name="GroupedOperation" Label="for IsInt"/>
-  <Oper Arg="arg1" Name="GroupedOperationWithOptions" Label="for IsInt"/>
-  <Oper Arg="arg1,arg2" Name="GroupedOperation" Label="for IsInt, IsInt"/>
-  <Oper Arg="arg1,arg2" Name="GroupedOperationWithOptions" Label="for IsInt, IsInt"/>
-  <Oper Arg="arg" Name="GroupedOperationForParser" Label="for IsInt"/>
-  <Oper Arg="arg1,arg2" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
- <Returns>IsInt</Returns>
+<ManSection>
+  <Oper Arg="arg1,arg2" Name="SomeStuff" Label="for IsList, IsList"/>
+ <Returns></Returns>
  <Description>
-    Description 1
-    Description 1
-    Description 2
-    Description 2
-    Description 1
-    Description 2
  </Description>
 </ManSection>
 
 <ManSection>
-  <Meth Arg="arg1" Name="AnOperation" Label="for IsObject, installed"/>
- <Returns>integer</Returns>
+  <Oper Arg="arg1,arg2" Name="MoreStuff" Label="for IsList, IsThings"/>
+ <Returns></Returns>
  <Description>
-    Im an operation
  </Description>
 </ManSection>
 
 <ManSection>
-  <Meth Arg="arg1" Name="AnOperationWithOptions" Label="for IsObject, installed"/>
- <Returns>integer</Returns>
+  <Oper Arg="arg1,arg2" Name="NoStuff" Label="for IsList, IsStuff"/>
+ <Returns></Returns>
  <Description>
-    Im an operation
  </Description>
 </ManSection>
 
 </Section>
 
-<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_functions">
-<Heading>AutoDocTestPackage automatic generated documentation of global functions</Heading>
-
-<ManSection>
-  <Func Arg="arg" Name="AnotherTestGlobalFunction" />
- <Returns>Integer</Returns>
- <Description>
-    a global function
- </Description>
-</ManSection>
-
-<ManSection>
-  <Func Arg="arg" Name="AnotherTestGlobalFunctionWithOptions" />
- <Returns>Integer</Returns>
- <Description>
-    a global function
- </Description>
-</ManSection>
-
-</Section>
-
-<Section Label="Chapter_AutoDocTestPackage_automatic_generated_documentation_Section_AutoDocTestPackage_automatic_generated_documentation_of_global_variables">
-<Heading>AutoDocTestPackage automatic generated documentation of global variables</Heading>
-
-<ManSection>
-  <Var Name="AnotherGlobalVariable" />
- <Description>
-    I'm a global variable.
- </Description>
-</ManSection>
-
-<ManSection>
-  <Var Name="AnotherGlobalVariableWithOptions" />
- <Description>
-    I'm a global variable.
- </Description>
-</ManSection>
-
-<ManSection Label="globalvar">
-  <Var Name="GroupedGlobalVariable" />
-  <Var Name="GroupedGlobalVariableWithOptions" />
-  <Var Name="GroupedGlobalVariable2" />
-  <Var Name="GroupedGlobalVariable2WithOptions" />
-  <Var Name="GroupedGlobalVariableForParser" />
-  <Var Name="GroupedGlobalVariable2ForParser" />
- <Description>
-    Global 1
-    Global 1
-    Global 2
-    Global 2
-    Global 1
-    Global 2
- </Description>
-</ManSection>
-
-</Section>
 
 </Chapter>
 
