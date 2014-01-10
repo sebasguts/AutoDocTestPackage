@@ -161,6 +161,13 @@ DeclareGlobalFunction( "AnotherTestGlobalFunctionForParser" );
 #! @ChapterInfo With_chapter_info, global
 DeclareGlobalVariable( "GlobalVariableForParser" );
 
+#! @Chunk testinstall
+#! bla
+#! @EndChunk
+InstallMethod( GroupedOperationForParser,
+               [ IsInt, IsInt],
+               TrueFunc );
+
 #! @SetLevel 1
 
 

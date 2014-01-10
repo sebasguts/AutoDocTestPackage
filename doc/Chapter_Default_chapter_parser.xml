@@ -70,6 +70,13 @@
 </ManSection>
 
 <ManSection>
+  <Func Arg="arg1,arg2" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
+ <Returns></Returns>
+ <Description>
+ </Description>
+</ManSection>
+
+<ManSection>
   <Var Name="AnotherGlobalVariableForParser" />
  <Returns></Returns>
  <Description>
