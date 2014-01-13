@@ -14,6 +14,14 @@
 <Heading>Parser default section</Heading>
 
  Another test
+<ManSection>
+  <InfoClass Name="MyInfoClass" />
+ <Description>
+ My first info class. Really. I've never
+ used this before!
+ </Description>
+</ManSection>
+
 <ManSection Label="categorywo">
   <Filt Arg="arg" Name="AGroupedCategoryForParser" Label="for IsObject"/>
   <Filt Arg="arg" Name="ASecondGroupedCategoryForParser" Label="for IsObject"/>

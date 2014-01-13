@@ -27,6 +27,17 @@
 DeclareCategory( "ACategoryForParser",
                  IsObject );
 
+#! @Description
+#! My first info class. Really. I've never
+#! used this before!
+DeclareInfoClass( "MyInfoClass" );
+
+#! @Description
+#! An info class with chapter info.
+#! Cool?
+#! @ChapterInfo With_chapter_info, Info section
+DeclareInfoClass( "AnotherInfoClass" );
+
 ## FIXME: Label is missing
 
 #! @Description 

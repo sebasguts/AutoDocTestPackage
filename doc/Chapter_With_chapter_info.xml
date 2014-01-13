@@ -67,6 +67,20 @@
 </Section>
 
 
+<Section Label="Chapter_With_chapter_info_Section_Info_section">
+<Heading>Info section</Heading>
+
+<ManSection>
+  <InfoClass Name="AnotherInfoClass" />
+ <Description>
+ An info class with chapter info.
+ Cool?
+ </Description>
+</ManSection>
+
+</Section>
+
+
 <Section Label="Chapter_With_chapter_info_Section_Second_section">
 <Heading>Second section</Heading>
 
