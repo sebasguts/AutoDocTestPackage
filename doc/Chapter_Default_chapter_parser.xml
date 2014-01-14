@@ -5,11 +5,8 @@
 <Heading>Default chapter parser</Heading>
 
  Just
-
  another
-
  headline
-
 <Section Label="Chapter_Default_chapter_parser_Section_Parser_default_section">
 <Heading>Parser default section</Heading>
 
@@ -22,6 +19,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection Label="categorywo">
   <Filt Arg="arg" Name="AGroupedCategoryForParser" Label="for IsObject"/>
   <Filt Arg="arg" Name="ASecondGroupedCategoryForParser" Label="for IsObject"/>
@@ -33,6 +31,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Prop Arg="arg" Name="AnotherPropertyForParser" Label="for AGroupedRepresentation"/>
  <Returns> <C>true</C> or <C>false</C>
@@ -42,6 +41,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Attr Arg="arg" Name="AnotherAttributeForParser" Label="for IsObject"/>
  <Returns> returnvalue
@@ -50,6 +50,7 @@
  AnotherDescription
  </Description>
 </ManSection>
+
 
 </Section>
 
@@ -68,6 +69,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Func Arg="arg" Name="AnotherTestGlobalFunctionForParser" />
  <Returns> Integer
@@ -77,12 +79,14 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Func Arg="arg1,arg2" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
  <Returns></Returns>
  <Description>
  </Description>
 </ManSection>
+
 
 <ManSection>
   <Var Name="AnotherGlobalVariableForParser" />
@@ -91,6 +95,7 @@
  I'm a global variable.
  </Description>
 </ManSection>
+
 
 <ManSection Label="globalvar">
   <Var Name="GroupedGlobalVariableForParser" />
@@ -102,6 +107,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Func Arg="c, bla" Name="MyMethod" Label="for IsStuff, IsThings"/>
  <Returns></Returns>
@@ -110,6 +116,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Func Arg="bla, bla" Name="MyOtherMethod" Label="for IsToricVariety, IsOtherStuff"/>
  <Returns></Returns>
@@ -117,6 +124,7 @@
  Other stuff here.
  </Description>
 </ManSection>
+
 
 </Section>
 

@@ -14,6 +14,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Oper Arg="arg1,arg2" Name="MoreStuff" Label="for IsList, IsThings"/>
  <Returns></Returns>
@@ -21,12 +22,14 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Oper Arg="arg1,arg2" Name="NoStuff" Label="for IsList, IsStuff"/>
  <Returns></Returns>
  <Description>
  </Description>
 </ManSection>
+
 
 </Section>
 

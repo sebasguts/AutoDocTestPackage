@@ -5,7 +5,6 @@
 <Heading>With chapter info</Heading>
 
  This is a user set chapter
-
 <Section Label="Chapter_With_chapter_info_Section_Category_section">
 <Heading>Category section</Heading>
 
@@ -26,6 +25,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Filt Arg="an argument" Name="ACategoryWithMoreOptionsForParser" Label="alabel"/>
  <Returns> <C>true</C> or <C>false</C>
@@ -34,6 +34,7 @@
  The description of it
  </Description>
 </ManSection>
+
 
 <ManSection>
   <Filt Arg="arg" Name="ARepresentationForParser" Label="for ACategoryForParser"/>
@@ -44,6 +45,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Filt Arg="arg" Name="ARepresentationWithMoreOptionsForParser" Label="alabel"/>
  <Returns> <C>true</C> or <C>false</C>
@@ -52,6 +54,7 @@
  The description of it.
  </Description>
 </ManSection>
+
 
 <ManSection Label="representation">
   <Filt Arg="arg" Name="AGroupedRepresentationForParser" Label="for IsObject"/>
@@ -63,6 +66,7 @@
  Description 2
  </Description>
 </ManSection>
+
 
 </Section>
 
@@ -77,6 +81,7 @@
  Cool?
  </Description>
 </ManSection>
+
 
 </Section>
 
@@ -93,6 +98,7 @@
  </Description>
 </ManSection>
 
+
 </Section>
 
 
@@ -107,6 +113,7 @@
  A description
  </Description>
 </ManSection>
+
 
 </Section>
 
@@ -123,6 +130,7 @@
  </Description>
 </ManSection>
 
+
 </Section>
 
 
@@ -138,6 +146,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Var Name="GlobalVariableForParser" />
  <Returns></Returns>
@@ -145,6 +154,7 @@
  I'm a global variable.
  </Description>
 </ManSection>
+
 
 </Section>
 

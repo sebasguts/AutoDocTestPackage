@@ -6,3 +6,4 @@
 <#Include SYSTEM "Chapter_Default_chapter_parser.xml">
 <#Include SYSTEM "Chapter_AutoDocTestPackage_automatic_generated_documentation.xml">
 <#Include SYSTEM "Chapter_ParserTest.xml">
+<#Include SYSTEM "Chapter_Syntax_extension_test.xml">

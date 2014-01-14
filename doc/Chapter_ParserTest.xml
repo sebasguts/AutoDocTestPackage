@@ -5,9 +5,7 @@
 <Heading>ParserTest</Heading>
 
  This tests the parser.
-
  Nothing else.
-
 <Section Label="Chapter_ParserTest_Section_ParserTestSection">
 <Heading>ParserTestSection</Heading>
 
@@ -23,6 +21,7 @@
  </Description>
 </ManSection>
 
+
 <ManSection>
   <Attr Arg="arg" Name="AnAttributeWithStuff" Label="for IsToricVariety"/>
  <Returns> a value
@@ -31,6 +30,7 @@
  Another description here.
  </Description>
 </ManSection>
+
 
 </Section>
 
@@ -49,6 +49,7 @@
  A category
  </Description>
 </ManSection>
+
 
 </Section>
 

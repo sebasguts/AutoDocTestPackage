@@ -61,3 +61,28 @@ DeclareAttribute( "AnAttributeWithStuff", IsToricVariety );
 DeclareCategory( "MyCategory", IsObject );
 DeclareCategory( "AlsoMyCategory", IsObject );
 
+#! @Chapter Syntax extension test
+
+#! Normal line
+#! 
+#! * point 1
+#! * point 2
+#!   - subpoint 1
+#!   - subpoint 2
+#! * point 3
+#! End of list
+#! New list
+#! + point 1
+#! + point 2
+#!   - sublist 1
+#!     $$Display math$$
+#!   - $Math$
+#! End of list again
+#  this is not in a list
+#!  **Emphasize**
+#!  __also__
+#!  **Maybe more then
+#!  one line**
+#!  this neither.
+
+
