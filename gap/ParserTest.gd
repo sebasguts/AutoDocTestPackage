@@ -73,10 +73,11 @@ DeclareCategory( "AlsoMyCategory", IsObject );
 #! End of list
 #! New list
 #! + point 1
+#!   The first part is marked.
 #! + point 2
-#!   - sublist 1
-#!     $$Display math$$
-#!   - $Math$
+#! + sublist 1
+#! + $$Display math$$
+#! + $Math$
 #! End of list again
 #  this is not in a list
 #!  **Emphasize**
