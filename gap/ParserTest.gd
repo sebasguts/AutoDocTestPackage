@@ -61,6 +61,31 @@ DeclareAttribute( "AnAttributeWithStuff", IsToricVariety );
 DeclareCategory( "MyCategory", IsObject );
 DeclareCategory( "AlsoMyCategory", IsObject );
 
+#! @EndGroup
+
+#! @BeginGroup Group1
+
+#! @Description
+#!  First sentence.
+DeclareOperation( "FirstOperation", [ IsInt ] );
+
+#! @Description
+#!  Second sentence.
+DeclareOperation( "SecondOperation", [ IsInt, IsGroup ] );
+
+#! @EndGroup
+
+## .. Stuff ..
+
+#! @Description
+#!  Third sentence.
+#! @Group Group1
+KeyDependentOperation( "ThirdOperation", IsGroup, IsInt, "prime );
+
+#! @Description
+#! Some key dependent operation
+KeyDependentOperation( "MyKDOperation", IsGroup, IsInt, "prime" );
+
 #! @Chapter Syntax extension test
 
 #! Normal line

@@ -27,7 +27,6 @@
 </Returns>
  <Description>
  Description 1
- <Br/>
  Description 2
  </Description>
 </ManSection>
@@ -66,7 +65,6 @@
 </Returns>
  <Description>
  Description 1
- <Br/>
  Description 2
  </Description>
 </ManSection>
@@ -105,7 +103,6 @@
  <Returns></Returns>
  <Description>
  Global 1
- <Br/>
  Global 2
  </Description>
 </ManSection>
