@@ -4,18 +4,18 @@
 <Chapter Label="Chapter_Default_chapter_parser">
 <Heading>Default chapter parser</Heading>
 
- Just
- another
- headline
+Just
+another
+headline
 <Section Label="Chapter_Default_chapter_parser_Section_Parser_default_section">
 <Heading>Parser default section</Heading>
 
- Another test
+Another test
 <ManSection>
   <InfoClass Name="MyInfoClass" />
  <Description>
- My first info class. Really. I've never
- used this before!
+My first info class. Really. I've never
+used this before!
  </Description>
 </ManSection>
 
@@ -23,31 +23,31 @@
 <ManSection Label="categorywo">
   <Filt Arg="arg" Name="AGroupedCategoryForParser" Label="for IsObject"/>
   <Filt Arg="arg" Name="ASecondGroupedCategoryForParser" Label="for IsObject"/>
- <Returns> <C>true</C> or <C>false</C>
+ <Returns><C>true</C> or <C>false</C>
 </Returns>
  <Description>
- Description 1
- Description 2
+Description 1
+Description 2
  </Description>
 </ManSection>
 
 
 <ManSection>
   <Prop Arg="arg" Name="AnotherPropertyForParser" Label="for AGroupedRepresentation"/>
- <Returns> <C>true</C> or <C>false</C>
+ <Returns><C>true</C> or <C>false</C>
 </Returns>
  <Description>
- A very nice description
+A very nice description
  </Description>
 </ManSection>
 
 
 <ManSection>
   <Attr Arg="arg" Name="AnotherAttributeForParser" Label="for IsObject"/>
- <Returns> returnvalue
+ <Returns>returnvalue
 </Returns>
  <Description>
- AnotherDescription
+AnotherDescription
  </Description>
 </ManSection>
 
@@ -61,21 +61,21 @@
 <ManSection Label="operationgroup">
   <Oper Arg="arg" Name="GroupedOperationForParser" Label="for IsInt"/>
   <Oper Arg="arg1,arg2" Name="GroupedOperationForParser" Label="for IsInt, IsInt"/>
- <Returns> IsInt
+ <Returns>IsInt
 </Returns>
  <Description>
- Description 1
- Description 2
+Description 1
+Description 2
  </Description>
 </ManSection>
 
 
 <ManSection>
   <Func Arg="arg" Name="AnotherTestGlobalFunctionForParser" />
- <Returns> Integer
+ <Returns>Integer
 </Returns>
  <Description>
- a global function
+a global function
  </Description>
 </ManSection>
 
@@ -90,9 +90,8 @@
 
 <ManSection>
   <Var Name="AnotherGlobalVariableForParser" />
- <Returns></Returns>
  <Description>
- I'm a global variable.
+I'm a global variable.
  </Description>
 </ManSection>
 
@@ -100,10 +99,9 @@
 <ManSection Label="globalvar">
   <Var Name="GroupedGlobalVariableForParser" />
   <Var Name="GroupedGlobalVariable2ForParser" />
- <Returns></Returns>
  <Description>
- Global 1
- Global 2
+Global 1
+Global 2
  </Description>
 </ManSection>
 
@@ -112,7 +110,7 @@
   <Func Arg="c, bla" Name="MyMethod" Label="for IsStuff, IsThings"/>
  <Returns></Returns>
  <Description>
- Some stuff here
+Some stuff here
  </Description>
 </ManSection>
 
@@ -121,7 +119,7 @@
   <Func Arg="bla, bla" Name="MyOtherMethod" Label="for IsToricVariety, IsOtherStuff"/>
  <Returns></Returns>
  <Description>
- Other stuff here.
+Other stuff here.
  </Description>
 </ManSection>
 
