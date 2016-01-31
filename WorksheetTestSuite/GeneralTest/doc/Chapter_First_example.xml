@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Chapter_First_example">
+<Heading>First example</Heading>
+
+<Section Label="Chapter_First_example_Section_Example">
+<Heading>Example</Heading>
+
+<Example><![CDATA[
+gap> C := CreateCategory( );
+gap> SetName( C, "C" );
+gap> X := CreateObject( C );
+gap> SetName( X, "X" );
+gap> SetIsInitial( X, true );
+gap> A := CreateObject( C );
+gap> SetName( A, "A" );
+gap> H := Hom( C, X, A );
+gap> f := CreateMorphism( H );
+<The morphism X -> A>
+gap> g := CreateMorphism( H );
+gap> IsIdenticalObj( f, g );
+true
+gap> I := CreateCategory( );
+gap> SetName( I, "I" );
+gap> IC := CreateFunctorCategory( I, C );
+gap> F := CreateObject( IC );
+gap> IsConstant( F );
+Error, no method found
+gap> G := CreateConstantFunctor( IC, A );
+<a constant functor I -> C with value A>
+gap> phi := CreateMorphism( I );
+gap> Source( phi );
+<An unnamed object in I>
+gap> Source( phi ) = Range( phi );
+fail
+gap> Gphi := ApplyFunctor( G, phi );
+<The identity morphism of A>
+gap> Source( Gphi );
+A
+gap> Source( Gphi ) = Range( Gphi )
+true
+gap> L := Limit( G );
+<The limit of a constant functor I -> C with value A>
+gap> L in C;
+false
+gap> UnderlyingCategory( L );
+<The slice category Delta( [ I, C ]  ) | F>
+gap> IsTerminal( L );
+true
+gap> L in UnderlyingCategory( L );
+true
+gap> UL := UnderlyingNaturalTransformation( L );
+<a natural transformation Delta( [ I, C ]  ) -> F>
+gap> UnderlyingCategory( UL );
+<The category of morphisms of [ I, C ]>
+gap> Source( UL );
+<A constant functor in [ I, C ]>
+gap> Value( Source( UL ) );
+<An object in C>
+gap> J := CreateCategory( );
+gap> SetName( J, "J" );
+gap> SetObjects( J, [ 1, 2, 3 ] );
+gap> MList := [ CreateMorphism( J, 1, 2 ), CreateMorphism( J, 3, 2 ) ];
+gap> SetMorphisms( J, MList );
+gap> B := CreateObject( C );
+gap> Y := CreateObject( C );
+gap> g1 := CreateMorphism( C, A, Y );
+gap> g2 := CreateMorphism( C, B, Y );
+gap> JC := CreateFunctorCategory( J, C );
+gap> P12 := CreateObject( JC, [ [ MList[ 1 ], g1 ], [ MList[ 2 ], g2 ] ] );
+gap> P12 := Limit( P12 );
+<The limit of a functor in [ J, C ]>
+gap> UnderlyingCategory( P12 );
+<The slice category Delta( [ J, C ] ) | P12>
+gap> UL := UnderlyingNaturalTransformation( P12 );
+<A natural transformation Delta( [ J, C ] ) -> P12>
+gap> PI_A := Evaluate( UL, 1 );
+<A morphism UL(1)->A in C>
+gap> D := CreateObject( C );
+gap> g3 := CreateMorphism( C, D, A );
+gap> P3PI_A := CreateObject( JC, [ [ MList[ 1 ], g3 ], [ MList[ 2 ], PI_A ] ] );
+gap> P3PI_A := Limit( P3PI_A );
+gap> P := CreateObject( JC, [ [ MList[ 1 ], PreCompose( g1, g3 ) ],
+>                          [ MList[ 2 ], g2 ] ] );
+gap> P := Limit( P );
+gap> IsIsomorphic( Value( Source( UnderlyingNaturalTransformation( P ) ) ),
+>               Value( Source( UnderlyingNaturalTransformation( P3PI_A ) ) ) );
+true
+]]></Example>
+
+
+</Section>
+
+
+</Chapter>
+

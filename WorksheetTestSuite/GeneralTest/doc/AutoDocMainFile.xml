@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This is an automatically generated file. -->
-<Chapter Label="Chapter_Intro">
-<Heading>Intro</Heading>
-
-This is a test docu
-</Chapter>
-
+<#Include SYSTEM "Chapter_First_example.xml">
