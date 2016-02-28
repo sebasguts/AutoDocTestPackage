@@ -11,8 +11,7 @@
 <#Include SYSTEM "title.xml">
 <TableOfContents/>
 <Body>
-<Index>&AutoDocTestPackage;</Index>
-<#Include SYSTEM "AutoDocMainFile.xml">
+<#Include SYSTEM "_AutoDocMainFile.xml">
 <#Include SYSTEM "handwritten.xml">
 </Body>
 <#Include SYSTEM "appendix.xml">
