@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<#Include SYSTEM "_Chapter_Intro.xml">
+<#Include SYSTEM "_Chapter_With_chapter_info.xml">
+<#Include SYSTEM "_Chapter_Default_chapter_parser.xml">
+<#Include SYSTEM "_Chapter_AutoDocTestPackage_automatic_generated_documentation.xml">
+<#Include SYSTEM "_Chapter_ParserTest.xml">
+<#Include SYSTEM "_Chapter_Syntax_extension_test.xml">

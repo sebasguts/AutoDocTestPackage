@@ -4,15 +4,15 @@
 ##  Call this with GAP.
 ##
 
-LoadPackage("AutoDoc");
+if fail = LoadPackage("AutoDoc", ">= 2016.01.21") then
+    Error("AutoDoc 2016.01.21 or newer is required");
+fi;
 
 AutoDoc(
-    "AutoDocTestPackage",
     rec(
-
-scaffold := rec(
+        scaffold := rec(
             includes := [
-                "AutoDocMainFile.xml",
+                "_AutoDocMainFile.xml",
                 "handwritten.xml",
                 ],
             appendix := [ "appendix.xml" ],
@@ -30,7 +30,7 @@ scaffold := rec(
 );
 
 # Create VERSION file for "make towww"
-PrintTo( "VERSION", PackageInfo( "AutoDocTestPackage" )[1].Version );
+PrintTo( "VERSION", GAPInfo.PackageInfoCurrent.Version );
 
 ## QUIT;
 

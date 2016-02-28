@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Chapter_Syntax_extension_test">
+<Heading>Syntax extension test</Heading>
+
+Normal line
+<List>
+<Item>
+point 1
+</Item>
+<Item>
+point 2
+<List>
+<Item>
+subpoint 1
+</Item>
+<Item>
+subpoint 2
+</Item>
+</List>
+</Item>
+<Item>
+point 3
+</Item>
+</List>
+End of list
+New list
+<List>
+<Item>
+point 1
+The first part is marked.
+</Item>
+<Item>
+point 2
+</Item>
+<Item>
+sublist 1
+</Item>
+<Item>
+<Display>Display math</Display>
+</Item>
+<Item>
+<Math>Math</Math>
+</Item>
+</List>
+End of list again
+<Emph>Emphasize</Emph>
+<Emph>also</Emph>
+<Emph>Maybe more then
+one line</Emph>
+this neither.
+</Chapter>
+
